@@ -1,11 +1,11 @@
 <style>
-.tooltip {
+.popup {
     position: relative;
     display: inline-block;
     
 }
 
-.tooltip .tooltiptext {
+.popup .popuptext {
     visibility: hidden;
     width: 120px;
     background-color: black;
@@ -14,10 +14,12 @@
     border-radius: 6px;
     padding: 5px 0;
     position: absolute;
-    z-index: 1;
+    top: 10px;
+    left: 70px
+    
 }
 
-.tooltip:hover .tooltiptext {
+.popup:hover .popuptext {
     visibility: visible;
 }
 </style>
@@ -25,10 +27,10 @@
 <!--Beijing webpage-->
 <head>
  
- <div class = "tooltip">
+ <div class = "popup">
   <a href="home_page.html"><IMG SRC="earth-spinning-rotating-animation-24.gif" ALT="spinning globe" WIDTH=90>
    </a>
-   <span class = "tooltiptext">Home</span>
+   <span class = "popuptext">Home</span>
    </div>
   
     </head>
