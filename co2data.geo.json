@@ -1,0 +1,3405 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Buenos Aires",
+        "Country": "Argentina",
+        "City Short Name": "Buenos Aires",
+        "Total City-wide Emissions (metric tonnes CO2e)": 19667128,
+        "Measurement Date": "12/31/14",
+        "Current Population": 3054267,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3815931,
+          -34.6037232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Adelaide",
+        "Country": "Australia",
+        "City Short Name": "Adelaide",
+        "Total City-wide Emissions (metric tonnes CO2e)": 486541,
+        "Measurement Date": "6/30/13",
+        "Current Population": 23169,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.600746,
+          -34.928499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Canberra",
+        "Country": "Australia",
+        "City Short Name": "Canberra",
+        "Total City-wide Emissions (metric tonnes CO2e)": 4003900,
+        "Measurement Date": "6/30/15",
+        "Current Population": 400000,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1244,
+          -35.3075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Melbourne",
+        "Country": "Australia",
+        "City Short Name": "Melbourne",
+        "Total City-wide Emissions (metric tonnes CO2e)": 4372420,
+        "Measurement Date": "6/30/15",
+        "Current Population": 137889,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96328,
+          -37.814107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Sydney",
+        "Country": "Australia",
+        "City Short Name": "Sydney",
+        "Total City-wide Emissions (metric tonnes CO2e)": 3556529,
+        "Measurement Date": "6/30/15",
+        "Current Population": 205339,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2069902,
+          -33.8674869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Municipalidad de La Paz",
+        "Country": "Bolivia",
+        "City Short Name": "La Paz",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1426533.8,
+        "Measurement Date": "12/31/12",
+        "Current Population": "783,293",
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.15,
+          -16.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Prefeitura de Palmas",
+        "Country": "Brazil",
+        "City Short Name": "Palmas",
+        "Total City-wide Emissions (metric tonnes CO2e)": 625391.59,
+        "Measurement Date": "12/31/13",
+        "Current Population": 272726,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.324286,
+          -10.249091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Municipality of Belo Horizonte",
+        "Country": "Brazil",
+        "City Short Name": "Belo Horizonte",
+        "Total City-wide Emissions (metric tonnes CO2e)": 3241713,
+        "Measurement Date": "12/31/13",
+        "Current Population": 2502557,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.934493,
+          -19.916681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Municipality of Curitiba",
+        "Country": "Brazil",
+        "City Short Name": "Curitiba",
+        "Total City-wide Emissions (metric tonnes CO2e)": 3036279,
+        "Measurement Date": "12/31/13",
+        "Current Population": 1751907,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.264693,
+          -25.431063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Municipality of Porto Alegre",
+        "Country": "Brazil",
+        "City Short Name": "Porto Alegre",
+        "Total City-wide Emissions (metric tonnes CO2e)": 2829128,
+        "Measurement Date": "12/31/13",
+        "Current Population": 1409351,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.3831,
+          -3.672722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Municipality of Recife",
+        "Country": "Brazil",
+        "City Short Name": "Recife",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1883,
+        "Measurement Date": "12/31/12",
+        "Current Population": 1555039,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.882897,
+          -8.057838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Prefeitura do Rio de Janeiro",
+        "Country": "Brazil",
+        "City Short Name": "Rio de Janeiro",
+        "Total City-wide Emissions (metric tonnes CO2e)": 20268045,
+        "Measurement Date": "12/31/12",
+        "Current Population": 6476631,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.5614471,
+          -22.9054389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Salvador",
+        "Country": "Brazil",
+        "City Short Name": "Salvador",
+        "Total City-wide Emissions (metric tonnes CO2e)": 3698964,
+        "Measurement Date": "12/31/13",
+        "Current Population": 2902927,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.502304,
+          -12.97304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Prefeitura de Sorocaba",
+        "Country": "Brazil",
+        "City Short Name": "Sorocaba",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1113971,
+        "Measurement Date": "12/31/12",
+        "Current Population": 644919,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.4220615,
+          -23.4774899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Town of Ajax, ON",
+        "Country": "Canada",
+        "City Short Name": "Ajax, ON",
+        "Total City-wide Emissions (metric tonnes CO2e)": 538836,
+        "Measurement Date": "12/31/08",
+        "Current Population": 109600,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.020373,
+          43.850855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Calgary",
+        "Country": "Canada",
+        "City Short Name": "Calgary",
+        "Total City-wide Emissions (metric tonnes CO2e)": 18207232,
+        "Measurement Date": "12/31/15",
+        "Current Population": 1203915,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.070846,
+          51.048615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Winnipeg",
+        "Country": "Canada",
+        "City Short Name": "City of Winnipeg",
+        "Total City-wide Emissions (metric tonnes CO2e)": 5257325,
+        "Measurement Date": "12/31/98",
+        "Current Population": 718400,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1374937,
+          49.8997541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Toronto",
+        "Country": "Canada",
+        "City Short Name": "Toronto",
+        "Total City-wide Emissions (metric tonnes CO2e)": 18320966,
+        "Measurement Date": "12/31/13",
+        "Current Population": 2753100,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3831843,
+          43.653226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Edmonton",
+        "Country": "Canada",
+        "City Short Name": "Edmonton",
+        "Total City-wide Emissions (metric tonnes CO2e)": 16576702,
+        "Measurement Date": "12/31/14",
+        "Current Population": 878000,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4909267,
+          53.544389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Hamilton",
+        "Country": "Canada",
+        "City Short Name": "Hamilton",
+        "Total City-wide Emissions (metric tonnes CO2e)": 16469283,
+        "Measurement Date": "12/31/12",
+        "Current Population": 519949,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.866091,
+          43.250021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of London, ON",
+        "Country": "Canada",
+        "City Short Name": "London, ON",
+        "Total City-wide Emissions (metric tonnes CO2e)": 3070000,
+        "Measurement Date": "12/31/14",
+        "Current Population": 375000,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2497,
+          42.9837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Ville de Montreal",
+        "Country": "Canada",
+        "City Short Name": "Montreal",
+        "Total City-wide Emissions (metric tonnes CO2e)": 13722942,
+        "Measurement Date": "12/31/09",
+        "Current Population": 1886481,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5539925,
+          45.5086699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of North Vancouver",
+        "Country": "Canada",
+        "City Short Name": "North Vancouver",
+        "Total City-wide Emissions (metric tonnes CO2e)": 196840,
+        "Measurement Date": "12/31/10",
+        "Current Population": 52346,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.07328,
+          49.32699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Peterborough",
+        "Country": "Canada",
+        "City Short Name": "Peterborough",
+        "Total City-wide Emissions (metric tonnes CO2e)": 283061,
+        "Measurement Date": "12/31/11",
+        "Current Population": 78698,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.319747,
+          44.309058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Vancouver",
+        "Country": "Canada",
+        "City Short Name": "Vancouver",
+        "Total City-wide Emissions (metric tonnes CO2e)": 2442602,
+        "Measurement Date": "12/31/14",
+        "Current Population": 603500,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1139268,
+          49.261226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Windsor",
+        "Country": "Canada",
+        "City Short Name": "Windsor",
+        "Total City-wide Emissions (metric tonnes CO2e)": 2475703,
+        "Measurement Date": "12/31/14",
+        "Current Population": 210891,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.036363,
+          42.314937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Santiago de Cali",
+        "Country": "Colombia",
+        "City Short Name": "Santiago de Cali",
+        "Total City-wide Emissions (metric tonnes CO2e)": 4174608,
+        "Measurement Date": "12/31/10",
+        "Current Population": 2369829,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.531985,
+          3.451647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Aarhus Kommune",
+        "Country": "Denmark",
+        "City Short Name": "Aarhus Kommune",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1900,
+        "Measurement Date": "1/1/16",
+        "Current Population": 320000,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.137373,
+          56.168393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Copenhagen",
+        "Country": "Denmark",
+        "City Short Name": "Copenhagen",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1450358,
+        "Measurement Date": "12/31/15",
+        "Current Population": 591481,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5683371,
+          55.6760968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Gladsaxe Kommune",
+        "Country": "Denmark",
+        "City Short Name": "Gladsaxe Kommune",
+        "Total City-wide Emissions (metric tonnes CO2e)": 362078,
+        "Measurement Date": "12/31/14",
+        "Current Population": 66656,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.488686,
+          55.733461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Hoeje-Taastrup Kommune",
+        "Country": "Denmark",
+        "City Short Name": "Hoeje-Taastrup Kommune",
+        "Total City-wide Emissions (metric tonnes CO2e)": 297000,
+        "Measurement Date": "12/31/14",
+        "Current Population": 50002,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2898,
+          55.656328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Distrito Metropolitano de Quito",
+        "Country": "Ecuador",
+        "City Short Name": "Distrito Metropolitano de Quito",
+        "Total City-wide Emissions (metric tonnes CO2e)": 5233350,
+        "Measurement Date": "12/31/11",
+        "Current Population": 2239191,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5167,
+          -0.2333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Santiago de Guayaquil",
+        "Country": "Ecuador",
+        "City Short Name": "Santiago de Guayaquil",
+        "Total City-wide Emissions (metric tonnes CO2e)": 6787374,
+        "Measurement Date": "12/31/14",
+        "Current Population": 2350915,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.922359,
+          -2.170998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Addis Ababa City Administration",
+        "Country": "Ethiopia",
+        "City Short Name": "Addis Ababa",
+        "Total City-wide Emissions (metric tonnes CO2e)": 3708292,
+        "Measurement Date": "12/31/12",
+        "Current Population": 3384569,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.754366,
+          9.028874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Helsinki",
+        "Country": "Finland",
+        "City Short Name": "Helsinki",
+        "Total City-wide Emissions (metric tonnes CO2e)": 2789724,
+        "Measurement Date": "12/31/14",
+        "Current Population": 612664,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9410248,
+          60.1733244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Lahti",
+        "Country": "Finland",
+        "City Short Name": "Lahti",
+        "Total City-wide Emissions (metric tonnes CO2e)": 685460,
+        "Measurement Date": "12/31/13",
+        "Current Population": 120432,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.65,
+          60.9833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Turku",
+        "Country": "Finland",
+        "City Short Name": "Turku",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1107500,
+        "Measurement Date": "12/31/13",
+        "Current Population": 186000,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2666303,
+          60.4518126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Paris",
+        "Country": "France",
+        "City Short Name": "Paris",
+        "Total City-wide Emissions (metric tonnes CO2e)": 5195663,
+        "Measurement Date": "12/31/14",
+        "Current Population": 2265886,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522219,
+          48.856614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Free and Hanseatic City of Hamburg",
+        "Country": "Germany",
+        "City Short Name": "Hamburg",
+        "Total City-wide Emissions (metric tonnes CO2e)": 17755,
+        "Measurement Date": "12/31/13",
+        "Current Population": 1762791,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9936818,
+          53.5510846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Landeshauptstadt Magdeburg",
+        "Country": "Germany",
+        "City Short Name": "Landeshauptstadt Magdeburg",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1400000,
+        "Measurement Date": "12/31/12",
+        "Current Population": 238000,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.586164,
+          52.08889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Stadt Heidelberg",
+        "Country": "Germany",
+        "City Short Name": "Stadt Heidelberg",
+        "Total City-wide Emissions (metric tonnes CO2e)": 879900,
+        "Measurement Date": "12/31/11",
+        "Current Population": 144948,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.672434,
+          49.398752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Athens",
+        "Country": "Greece",
+        "City Short Name": "Athens",
+        "Total City-wide Emissions (metric tonnes CO2e)": 4711576,
+        "Measurement Date": "12/31/14",
+        "Current Population": 664046,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.727539,
+          37.98381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Government of Hong Kong Special Administrative Region",
+        "Country": "Hong Kong",
+        "City Short Name": "Hong Kong",
+        "Total City-wide Emissions (metric tonnes CO2e)": 42700000,
+        "Measurement Date": "12/31/12",
+        "Current Population": 7305700,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1398015,
+          22.2880809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Bogor City Government",
+        "Country": "Indonesia",
+        "City Short Name": "Bogor ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 2193642,
+        "Measurement Date": "12/31/14",
+        "Current Population": 1030720,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.806039,
+          -6.597147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Jakarta City Government",
+        "Country": "Indonesia",
+        "City Short Name": "Jakarta ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 27780000,
+        "Measurement Date": "12/31/14",
+        "Current Population": 10075300,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.845599,
+          -6.2087634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Dublin City Council",
+        "Country": "Ireland",
+        "City Short Name": "Dublin",
+        "Total City-wide Emissions (metric tonnes CO2e)": 2942349,
+        "Measurement Date": "12/31/11",
+        "Current Population": 527612,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.270843,
+          53.344479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Comune di Bologna",
+        "Country": "Italy",
+        "City Short Name": "Bologna",
+        "Total City-wide Emissions (metric tonnes CO2e)": 2270524.7,
+        "Measurement Date": "4/1/09",
+        "Current Population": 386181,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3547975,
+          44.4856087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Comune di Udine",
+        "Country": "Italy",
+        "City Short Name": "Udine",
+        "Total City-wide Emissions (metric tonnes CO2e)": 613588,
+        "Measurement Date": "12/31/13",
+        "Current Population": 99528,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2333,
+          46.0667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Comune di Ferrara",
+        "Country": "Italy",
+        "City Short Name": "Ferrara",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1582605.13,
+        "Measurement Date": "12/31/07",
+        "Current Population": 133155,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6189949,
+          44.8357395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Comune di Genova",
+        "Country": "Italy",
+        "City Short Name": "Genova",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1810370,
+        "Measurement Date": "12/31/11",
+        "Current Population": 592995,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.318415,
+          44.347961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Comune di Torino",
+        "Country": "Italy",
+        "City Short Name": "Torino",
+        "Total City-wide Emissions (metric tonnes CO2e)": 3496156,
+        "Measurement Date": "12/31/14",
+        "Current Population": 898714,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6680046,
+          45.1006374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Comune di Milano",
+        "Country": "Italy",
+        "City Short Name": "Milano",
+        "Total City-wide Emissions (metric tonnes CO2e)": 5976779,
+        "Measurement Date": "12/31/13",
+        "Current Population": 1350680,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.086356,
+          45.802578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Comune di Piacenza",
+        "Country": "Italy",
+        "City Short Name": "Piacenza",
+        "Total City-wide Emissions (metric tonnes CO2e)": 615452,
+        "Measurement Date": "12/31/90",
+        "Current Population": 102269,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6926451,
+          45.0519969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Comune di Ravenna",
+        "Country": "Italy",
+        "City Short Name": "Ravenna",
+        "Total City-wide Emissions (metric tonnes CO2e)": 11419,
+        "Measurement Date": "12/21/14",
+        "Current Population": 158911,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.518037,
+          41.913028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Roma Capitale",
+        "Country": "Italy",
+        "City Short Name": "Roma ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 10008879,
+        "Measurement Date": "12/31/10",
+        "Current Population": 2868347,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4801802,
+          41.8723889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Comune di Venezia",
+        "Country": "Italy",
+        "City Short Name": "Venezia",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1418344,
+        "Measurement Date": "12/31/05",
+        "Current Population": 263104,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3210704,
+          45.4332515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Okayama",
+        "Country": "Japan",
+        "City Short Name": "Okayama",
+        "Total City-wide Emissions (metric tonnes CO2e)": 6916000,
+        "Measurement Date": "3/31/13",
+        "Current Population": 705917,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.919502,
+          34.655146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Hiroshima",
+        "Country": "Japan",
+        "City Short Name": "Hiroshima",
+        "Total City-wide Emissions (metric tonnes CO2e)": 8675437,
+        "Measurement Date": "3/31/14",
+        "Current Population": 1191030,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.455293,
+          34.385203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Yokohama",
+        "Country": "Japan",
+        "City Short Name": "Yokohama",
+        "Total City-wide Emissions (metric tonnes CO2e)": 21950000,
+        "Measurement Date": "3/31/13",
+        "Current Population": 3719589,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6380256,
+          35.4437078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Nagoya",
+        "Country": "Japan",
+        "City Short Name": "Nagoya",
+        "Total City-wide Emissions (metric tonnes CO2e)": 13420000,
+        "Measurement Date": "3/31/13",
+        "Current Population": 2274511,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.906398,
+          35.181446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Tokyo Metropolitan Government",
+        "Country": "Japan",
+        "City Short Name": "Tokyo",
+        "Total City-wide Emissions (metric tonnes CO2e)": 70125000,
+        "Measurement Date": "3/31/14",
+        "Current Population": 13513734,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6921007,
+          35.6896342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Greater Amman Municipality",
+        "Country": "Jordan",
+        "City Short Name": "Amman ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 7215407,
+        "Measurement Date": "12/31/14",
+        "Current Population": 3604459,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.928372,
+          31.945367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Vilnius City Municipality",
+        "Country": "Lithuania",
+        "City Short Name": "Vilnius ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1994560,
+        "Measurement Date": "12/31/13",
+        "Current Population": 542626,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.279651,
+          54.687156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Mexico City",
+        "Country": "Mexico",
+        "City Short Name": "Mexico City",
+        "Total City-wide Emissions (metric tonnes CO2e)": 23655110.96,
+        "Measurement Date": "12/31/14",
+        "Current Population": 8874724,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.133208,
+          19.4326077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Amsterdam",
+        "Country": "Netherlands",
+        "City Short Name": "Amsterdam",
+        "Total City-wide Emissions (metric tonnes CO2e)": 4471000,
+        "Measurement Date": "12/31/15",
+        "Current Population": 822272,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.895168,
+          52.370216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Gemeente Rotterdam",
+        "Country": "Netherlands",
+        "City Short Name": "Rotterdam",
+        "Total City-wide Emissions (metric tonnes CO2e)": 31512000,
+        "Measurement Date": "12/31/15",
+        "Current Population": 624000,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4509382,
+          51.9163716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Auckland Council",
+        "Country": "New Zealand",
+        "City Short Name": "Auckland ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 10472155,
+        "Measurement Date": "12/31/13",
+        "Current Population": 1569900,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.741788,
+          -36.815328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Wellington City Council",
+        "Country": "New Zealand",
+        "City Short Name": "Wellington",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1084979,
+        "Measurement Date": "6/30/15",
+        "Current Population": 203800,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.268357,
+          26.661763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Lagos",
+        "Country": "Nigeria",
+        "City Short Name": "Lagos",
+        "Total City-wide Emissions (metric tonnes CO2e)": 29426266,
+        "Measurement Date": "12/31/14",
+        "Current Population": 21000000,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.379206,
+          6.524379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Oslo",
+        "Country": "Norway",
+        "City Short Name": "Oslo",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1340422,
+        "Measurement Date": "12/1/13",
+        "Current Population": 658390,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7522454,
+          59.9138688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Metropolitan Municipality of Lima",
+        "Country": "Peru",
+        "City Short Name": "Lima",
+        "Total City-wide Emissions (metric tonnes CO2e)": 15432105,
+        "Measurement Date": "12/31/12",
+        "Current Population": 8755262,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.042793,
+          -12.046374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Batangas City",
+        "Country": "Philippines",
+        "City Short Name": "Batangas",
+        "Total City-wide Emissions (metric tonnes CO2e)": 457288,
+        "Measurement Date": "12/20/10",
+        "Current Population": 332458,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.058308,
+          13.756465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City Government of Makati",
+        "Country": "Philippines",
+        "City Short Name": "Makati",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1660370,
+        "Measurement Date": "12/31/11",
+        "Current Population": 529039,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.081632,
+          14.559004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Warsaw",
+        "Country": "Poland",
+        "City Short Name": "Warsaw",
+        "Total City-wide Emissions (metric tonnes CO2e)": 11721774,
+        "Measurement Date": "12/31/14",
+        "Current Population": 1626514,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0122287,
+          52.2296756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Barreiro",
+        "Country": "Portugal",
+        "City Short Name": "Barreiro",
+        "Total City-wide Emissions (metric tonnes CO2e)": 290849,
+        "Measurement Date": "12/31/14",
+        "Current Population": 78764,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.079072,
+          38.660815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Cascais",
+        "Country": "Portugal",
+        "City Short Name": "Cascais",
+        "Total City-wide Emissions (metric tonnes CO2e)": 565382,
+        "Measurement Date": "12/31/10",
+        "Current Population": 208122,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.4222945,
+          38.6970565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Faro",
+        "Country": "Portugal",
+        "City Short Name": "Faro",
+        "Total City-wide Emissions (metric tonnes CO2e)": 265.85,
+        "Measurement Date": "12/31/10",
+        "Current Population": 61214,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.93044,
+          37.019355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Lisbon",
+        "Country": "Portugal",
+        "City Short Name": "Lisbon",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1934361,
+        "Measurement Date": "12/31/14",
+        "Current Population": 547773,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.1393366,
+          38.7222524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Porto",
+        "Country": "Portugal",
+        "City Short Name": "Porto",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1020000,
+        "Measurement Date": "12/31/09",
+        "Current Population": 238954,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6291053,
+          41.1579438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Torres Vedras Municipality",
+        "Country": "Portugal",
+        "City Short Name": "Torres Vedras ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 260331,
+        "Measurement Date": "12/31/09",
+        "Current Population": 79465,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.30148,
+          38.763669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Ljubljana",
+        "Country": "Slovenia",
+        "City Short Name": "Ljubljana",
+        "Total City-wide Emissions (metric tonnes CO2e)": 2079758,
+        "Measurement Date": "12/31/14",
+        "Current Population": 287218,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.505751,
+          46.056947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Cape Town",
+        "Country": "South Africa",
+        "City Short Name": "Cape Town",
+        "Total City-wide Emissions (metric tonnes CO2e)": 22643846,
+        "Measurement Date": "12/31/12",
+        "Current Population": 3918830,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4239,
+          -33.9253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Durban",
+        "Country": "South Africa",
+        "City Short Name": "Durban",
+        "Total City-wide Emissions (metric tonnes CO2e)": 22587081,
+        "Measurement Date": "12/31/14",
+        "Current Population": 3555868,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0218404,
+          -29.8586804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Johannesburg",
+        "Country": "South Africa",
+        "City Short Name": "Johannesburg",
+        "Total City-wide Emissions (metric tonnes CO2e)": 24716713,
+        "Measurement Date": "12/31/14",
+        "Current Population": 4764381,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473051,
+          -26.2041028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Pretoria - Tshwane",
+        "Country": "South Africa",
+        "City Short Name": "Pretoria - Tshwane",
+        "Total City-wide Emissions (metric tonnes CO2e)": 15236693,
+        "Measurement Date": "6/30/15",
+        "Current Population": 3200000,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.188056,
+          -25.746111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Seoul Metropolitan Government",
+        "Country": "South Korea",
+        "City Short Name": "Seoul ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 47612664,
+        "Measurement Date": "12/31/13",
+        "Current Population": 10297138,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9779692,
+          37.566535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Suwon City",
+        "Country": "South Korea",
+        "City Short Name": "Suwon ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 5775155,
+        "Measurement Date": "12/31/13",
+        "Current Population": 1221973,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0286009,
+          37.2635727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Incheon Metropolitan City",
+        "Country": "South Korea",
+        "City Short Name": "Incheon ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 69794140,
+        "Measurement Date": "12/31/15",
+        "Current Population": 2983484,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.705206,
+          37.456256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Ayuntamiento de Madrid",
+        "Country": "Spain",
+        "City Short Name": "Madrid",
+        "Total City-wide Emissions (metric tonnes CO2e)": 10257048,
+        "Measurement Date": "12/31/13",
+        "Current Population": 3156572,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3875673,
+          40.1076253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Zaragoza",
+        "Country": "Spain",
+        "City Short Name": "Zaragoza",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1785603.75,
+        "Measurement Date": "12/31/14",
+        "Current Population": 7000463,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.887012,
+          41.608629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Stockholm",
+        "Country": "Sweden",
+        "City Short Name": "Stockholm",
+        "Total City-wide Emissions (metric tonnes CO2e)": 2511000,
+        "Measurement Date": "12/31/12",
+        "Current Population": 901989,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0685808,
+          59.3293235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Basel-Stadt",
+        "Country": "Switzerland",
+        "City Short Name": "Basel-Stadt",
+        "Total City-wide Emissions (metric tonnes CO2e)": 885878,
+        "Measurement Date": "12/31/12",
+        "Current Population": 197005,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5928,
+          47.5619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Ville de Lausanne",
+        "Country": "Switzerland",
+        "City Short Name": "Lausanne",
+        "Total City-wide Emissions (metric tonnes CO2e)": 499573,
+        "Measurement Date": "12/31/13",
+        "Current Population": 140000,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6335,
+          46.5198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Yilan County",
+        "Country": "Taiwan",
+        "City Short Name": "Yilan ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 8180556.68,
+        "Measurement Date": "12/31/13",
+        "Current Population": 458777,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.73775,
+          24.702107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Kaohsiung City Government",
+        "Country": "Taiwan",
+        "City Short Name": "Kaohsiung",
+        "Total City-wide Emissions (metric tonnes CO2e)": 58755764.13,
+        "Measurement Date": "12/31/14",
+        "Current Population": 2778729,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.343804,
+          22.629705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "New Taipei City Government",
+        "Country": "Taiwan",
+        "City Short Name": "New Taipei ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 17233924,
+        "Measurement Date": "12/31/14",
+        "Current Population": 3966818,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4458,
+          25.0111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Pingtung County Government",
+        "Country": "Taiwan",
+        "City Short Name": "Pingtung ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 4604805,
+        "Measurement Date": "12/31/13",
+        "Current Population": 840931,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.54876,
+          22.551976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Taipei City Government",
+        "Country": "Taiwan",
+        "City Short Name": "Taipei City",
+        "Total City-wide Emissions (metric tonnes CO2e)": 14957404,
+        "Measurement Date": "12/31/14",
+        "Current Population": 2704810,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.563782,
+          25.037525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Taoyuan City Hall",
+        "Country": "Taiwan",
+        "City Short Name": "Taoyuan ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 30073752.26,
+        "Measurement Date": "12/31/13",
+        "Current Population": 2114172,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.30098,
+          24.993628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Bornova Municipality",
+        "Country": "Turkey",
+        "City Short Name": "Bornova ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 758627,
+        "Measurement Date": "12/31/11",
+        "Current Population": 416007,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.2947541,
+          35.2141598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Village of Kadiovacik",
+        "Country": "Turkey",
+        "City Short Name": "Kadiovacik",
+        "Total City-wide Emissions (metric tonnes CO2e)": 443.79,
+        "Measurement Date": "12/31/15",
+        "Current Population": 216,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.553613,
+          38.3434574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Birmingham City Council",
+        "Country": "United Kingdom",
+        "City Short Name": "Birmingham",
+        "Total City-wide Emissions (metric tonnes CO2e)": 5199.7,
+        "Measurement Date": "12/31/13",
+        "Current Population": 1101360,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.902907,
+          52.480174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Bournemouth",
+        "Country": "United Kingdom",
+        "City Short Name": "Bournemouth",
+        "Total City-wide Emissions (metric tonnes CO2e)": 782650,
+        "Measurement Date": "12/31/13",
+        "Current Population": 191400,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.880769,
+          50.719164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Cardiff",
+        "Country": "United Kingdom",
+        "City Short Name": "Cardiff",
+        "Total City-wide Emissions (metric tonnes CO2e)": 2128000,
+        "Measurement Date": "12/31/13",
+        "Current Population": 354300,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.17909,
+          51.481581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Leicester",
+        "Country": "United Kingdom",
+        "City Short Name": "Leicester",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1719600,
+        "Measurement Date": "12/31/13",
+        "Current Population": 333812,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1333,
+          52.6333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Greater London Authority",
+        "Country": "United Kingdom",
+        "City Short Name": "London ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 40190000,
+        "Measurement Date": "12/31/13",
+        "Current Population": 8600000,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.078689,
+          51.504858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Greater Manchester",
+        "Country": "United Kingdom",
+        "City Short Name": "Manchester",
+        "Total City-wide Emissions (metric tonnes CO2e)": 14889318,
+        "Measurement Date": "12/31/13",
+        "Current Population": 2762000,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1578377,
+          53.4575955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Lake Forest, IL",
+        "Country": "USA",
+        "City Short Name": "Lake Forest, IL",
+        "Total City-wide Emissions (metric tonnes CO2e)": 402364,
+        "Measurement Date": "12/31/07",
+        "Current Population": 19375,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.840625,
+          42.258634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Alton, IL",
+        "Country": "USA",
+        "City Short Name": "Alton, IL",
+        "Total City-wide Emissions (metric tonnes CO2e)": 401079,
+        "Measurement Date": "12/31/13",
+        "Current Population": 26581,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.184276,
+          38.890604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Eugene",
+        "Country": "USA",
+        "City Short Name": "Eugene",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1250000,
+        "Measurement Date": "12/31/05",
+        "Current Population": 151190,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0867,
+          44.0519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Portland, OR",
+        "Country": "USA",
+        "City Short Name": "Portland, OR",
+        "Total City-wide Emissions (metric tonnes CO2e)": 6974544,
+        "Measurement Date": "12/31/14",
+        "Current Population": 619360,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6819,
+          45.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Brisbane, CA",
+        "Country": "USA",
+        "City Short Name": "Brisbane, CA",
+        "Total City-wide Emissions (metric tonnes CO2e)": 148025,
+        "Measurement Date": "5/1/16",
+        "Current Population": 4603,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4,
+          37.6808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Roanoke",
+        "Country": "USA",
+        "City Short Name": "Roanoke",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1971679,
+        "Measurement Date": "1/1/15",
+        "Current Population": 98465,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9414,
+          37.271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Austin",
+        "Country": "USA",
+        "City Short Name": "Austin",
+        "Total City-wide Emissions (metric tonnes CO2e)": 13700000,
+        "Measurement Date": "12/31/13",
+        "Current Population": 888204,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7431,
+          30.2672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Durham",
+        "Country": "USA",
+        "City Short Name": "Durham",
+        "Total City-wide Emissions (metric tonnes CO2e)": 4530469,
+        "Measurement Date": "6/30/15",
+        "Current Population": 250815,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8986,
+          35.994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of San Antonio",
+        "Country": "USA",
+        "City Short Name": "San Antonio",
+        "Total City-wide Emissions (metric tonnes CO2e)": 15734762,
+        "Measurement Date": "12/31/13",
+        "Current Population": 1400000,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4936,
+          29.4241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Emeryville, CA",
+        "Country": "USA",
+        "City Short Name": "Emeryville, CA",
+        "Total City-wide Emissions (metric tonnes CO2e)": 167728,
+        "Measurement Date": "12/31/14",
+        "Current Population": 10570,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285247,
+          37.831316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Iowa City",
+        "Country": "USA",
+        "City Short Name": "Iowa ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1298620,
+        "Measurement Date": "12/31/13",
+        "Current Population": 73415,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.5302,
+          41.6611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Aspen and Pitkin County",
+        "Country": "USA",
+        "City Short Name": "Aspen and Pitkin County",
+        "Total City-wide Emissions (metric tonnes CO2e)": 394341,
+        "Measurement Date": "12/31/14",
+        "Current Population": 8427,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.837,
+          39.195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Davis, CA",
+        "Country": "USA",
+        "City Short Name": "Davis, CA",
+        "Total City-wide Emissions (metric tonnes CO2e)": 348347,
+        "Measurement Date": "1/1/10",
+        "Current Population": 65600,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.740517,
+          38.544907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Houston",
+        "Country": "USA",
+        "City Short Name": "Houston",
+        "Total City-wide Emissions (metric tonnes CO2e)": 33428301,
+        "Measurement Date": "12/31/14",
+        "Current Population": 2195914,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3693896,
+          29.7601927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Abington Township",
+        "Country": "USA",
+        "City Short Name": "Abington ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 615224,
+        "Measurement Date": "12/31/10",
+        "Current Population": 55310,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.119511,
+          40.12408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Albany",
+        "Country": "USA",
+        "City Short Name": "Albany",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1217091,
+        "Measurement Date": "12/31/10",
+        "Current Population": 97856,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7562,
+          42.6526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Arlington, VA",
+        "Country": "USA",
+        "City Short Name": "Arlington, VA",
+        "Total City-wide Emissions (metric tonnes CO2e)": 2480700,
+        "Measurement Date": "12/31/15",
+        "Current Population": 216700,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.002594,
+          37.226486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Yonkers",
+        "Country": "USA",
+        "City Short Name": "Yonkers",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1248650,
+        "Measurement Date": "12/31/10",
+        "Current Population": 199766,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8644,
+          40.9414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Atlanta",
+        "Country": "USA",
+        "City Short Name": "Atlanta",
+        "Total City-wide Emissions (metric tonnes CO2e)": 9024235,
+        "Measurement Date": "12/31/14",
+        "Current Population": 443775,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3879824,
+          33.7489954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Baltimore",
+        "Country": "USA",
+        "City Short Name": "Baltimore",
+        "Total City-wide Emissions (metric tonnes CO2e)": 7579144,
+        "Measurement Date": "12/31/10",
+        "Current Population": 622793,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6121893,
+          39.2903848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of San Diego",
+        "Country": "USA",
+        "City Short Name": "San Diego",
+        "Total City-wide Emissions (metric tonnes CO2e)": 12624227,
+        "Measurement Date": "12/31/09",
+        "Current Population": 1400000,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1701,
+          32.718146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Benicia",
+        "Country": "USA",
+        "City Short Name": "Benicia",
+        "Total City-wide Emissions (metric tonnes CO2e)": 688706,
+        "Measurement Date": "12/31/10",
+        "Current Population": 27450,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1585777,
+          38.049365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Town of Blacksburg",
+        "Country": "USA",
+        "City Short Name": "Blacksburg",
+        "Total City-wide Emissions (metric tonnes CO2e)": 383747.148,
+        "Measurement Date": "12/31/12",
+        "Current Population": 43985,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4139,
+          37.2296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Boston",
+        "Country": "USA",
+        "City Short Name": "Boston",
+        "Total City-wide Emissions (metric tonnes CO2e)": 6066182,
+        "Measurement Date": "12/31/14",
+        "Current Population": 646000,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0597732,
+          42.3584308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Boulder",
+        "Country": "USA",
+        "City Short Name": "Boulder",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1721996,
+        "Measurement Date": "12/31/12",
+        "Current Population": 104810,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2519,
+          40.0274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Burlington",
+        "Country": "USA",
+        "City Short Name": "Burlington",
+        "Total City-wide Emissions (metric tonnes CO2e)": 405385.3,
+        "Measurement Date": "12/31/10",
+        "Current Population": 42284,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.212072,
+          44.4758825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Indianapolis",
+        "Country": "USA",
+        "City Short Name": "Indianapolis",
+        "Total City-wide Emissions (metric tonnes CO2e)": 2160364.98,
+        "Measurement Date": "12/31/13",
+        "Current Population": 850000,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.178469,
+          39.767625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Knoxville",
+        "Country": "USA",
+        "City Short Name": "Knoxville",
+        "Total City-wide Emissions (metric tonnes CO2e)": 3999874,
+        "Measurement Date": "12/31/12",
+        "Current Population": 184281,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9207,
+          35.9606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Chicago",
+        "Country": "USA",
+        "City Short Name": "Chicago",
+        "Total City-wide Emissions (metric tonnes CO2e)": 33500000,
+        "Measurement Date": "12/31/10",
+        "Current Population": 2719000,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6297982,
+          41.8781136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Cleveland",
+        "Country": "USA",
+        "City Short Name": "Cleveland",
+        "Total City-wide Emissions (metric tonnes CO2e)": 11889595,
+        "Measurement Date": "12/31/10",
+        "Current Population": 396815,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6943605,
+          41.49932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Columbus",
+        "Country": "USA",
+        "City Short Name": "Columbus",
+        "Total City-wide Emissions (metric tonnes CO2e)": 10983600,
+        "Measurement Date": "12/31/15",
+        "Current Population": 835957,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9987942,
+          39.9611755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Dallas",
+        "Country": "USA",
+        "City Short Name": "Dallas",
+        "Total City-wide Emissions (metric tonnes CO2e)": 17229388,
+        "Measurement Date": "12/31/10",
+        "Current Population": 1257676,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8004511,
+          32.7801399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Denver",
+        "Country": "USA",
+        "City Short Name": "Denver",
+        "Total City-wide Emissions (metric tonnes CO2e)": 8942000,
+        "Measurement Date": "12/31/14",
+        "Current Population": 663862,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9847179,
+          39.737567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Detroit",
+        "Country": "USA",
+        "City Short Name": "Detroit",
+        "Total City-wide Emissions (metric tonnes CO2e)": 10329322,
+        "Measurement Date": "12/31/12",
+        "Current Population": 688701,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0457538,
+          42.331427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "District of Columbia",
+        "Country": "USA",
+        "City Short Name": "District of Columbia",
+        "Total City-wide Emissions (metric tonnes CO2e)": 7386407,
+        "Measurement Date": "12/31/13",
+        "Current Population": 672228,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0368707,
+          38.9071923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Flagstaff",
+        "Country": "USA",
+        "City Short Name": "Flagstaff",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1211617.47,
+        "Measurement Date": "12/31/14",
+        "Current Population": 68667,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6311,
+          35.1992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Hayward",
+        "Country": "USA",
+        "City Short Name": "Hayward",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1048704,
+        "Measurement Date": "12/31/15",
+        "Current Population": 158985,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0808,
+          37.6689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Hermosa Beach, CA",
+        "Country": "USA",
+        "City Short Name": "Hermosa Beach, CA",
+        "Total City-wide Emissions (metric tonnes CO2e)": 126611,
+        "Measurement Date": "12/31/12",
+        "Current Population": 19750,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3995,
+          33.8622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Lakewood",
+        "Country": "USA",
+        "City Short Name": "Lakewood",
+        "Total City-wide Emissions (metric tonnes CO2e)": 1727860,
+        "Measurement Date": "12/31/07",
+        "Current Population": 149643,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0814,
+          39.7047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Lancaster, PA",
+        "Country": "USA",
+        "City Short Name": "Lancaster, PA",
+        "Total City-wide Emissions (metric tonnes CO2e)": 365763,
+        "Measurement Date": "12/31/15",
+        "Current Population": 60000,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.305514,
+          40.037875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Las Vegas",
+        "Country": "USA",
+        "City Short Name": "Las Vegas",
+        "Total City-wide Emissions (metric tonnes CO2e)": 29657130,
+        "Measurement Date": "12/31/14",
+        "Current Population": 621970,
+        "Primary Methodology": "Other",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1398296,
+          36.1699412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Los Altos Hills",
+        "Country": "USA",
+        "City Short Name": "Los Altos Hills",
+        "Total City-wide Emissions (metric tonnes CO2e)": 57243,
+        "Measurement Date": "12/31/15",
+        "Current Population": 8334,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1375,
+          37.3797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Los Angeles",
+        "Country": "USA",
+        "City Short Name": "Los Angeles",
+        "Total City-wide Emissions (metric tonnes CO2e)": 29024807,
+        "Measurement Date": "12/31/13",
+        "Current Population": 3928864,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2436849,
+          34.0522342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "University City, MO",
+        "Country": "USA",
+        "City Short Name": "University City, MO",
+        "Total City-wide Emissions (metric tonnes CO2e)": 501147,
+        "Measurement Date": "12/31/05",
+        "Current Population": 35371,
+        "Primary Methodology": "2006 IPCC Guidelines for National Greenhouse Gas Inventories",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3325,
+          38.6682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Minneapolis",
+        "Country": "USA",
+        "City Short Name": "Minneapolis",
+        "Total City-wide Emissions (metric tonnes CO2e)": 4794708,
+        "Measurement Date": "12/31/14",
+        "Current Population": 407207,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.26667,
+          44.983334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "Metropolitan Government of Nashville and Davidson County",
+        "Country": "USA",
+        "City Short Name": "Nashville and Davidson ",
+        "Total City-wide Emissions (metric tonnes CO2e)": 12275845,
+        "Measurement Date": "12/31/11",
+        "Current Population": 678889,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7816,
+          36.1627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of New Orleans",
+        "Country": "USA",
+        "City Short Name": "New Orleans",
+        "Total City-wide Emissions (metric tonnes CO2e)": 4558575,
+        "Measurement Date": "12/31/14",
+        "Current Population": 389617,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0715,
+          29.9511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "New York City",
+        "Country": "USA",
+        "City Short Name": "New York City",
+        "Total City-wide Emissions (metric tonnes CO2e)": 49385508,
+        "Measurement Date": "12/31/14",
+        "Current Population": 8491079,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0059413,
+          40.7127837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Oakland",
+        "Country": "USA",
+        "City Short Name": "Oakland",
+        "Total City-wide Emissions (metric tonnes CO2e)": 2733664,
+        "Measurement Date": "12/31/13",
+        "Current Population": 431500,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2708,
+          37.8044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Palo Alto",
+        "Country": "USA",
+        "City Short Name": "Palo Alto",
+        "Total City-wide Emissions (metric tonnes CO2e)": 152631,
+        "Measurement Date": "12/31/15",
+        "Current Population": 66955,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.143,
+          37.4419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Philadelphia",
+        "Country": "USA",
+        "City Short Name": "Philadelphia",
+        "Total City-wide Emissions (metric tonnes CO2e)": 19212870.06,
+        "Measurement Date": "12/31/12",
+        "Current Population": 1560297,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.163789,
+          39.952335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Piedmont, CA",
+        "Country": "USA",
+        "City Short Name": "Piedmont, CA",
+        "Total City-wide Emissions (metric tonnes CO2e)": 43442,
+        "Measurement Date": "1/1/11",
+        "Current Population": 11082,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2316,
+          37.8244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of West Hollywood",
+        "Country": "USA",
+        "City Short Name": "West Hollywood",
+        "Total City-wide Emissions (metric tonnes CO2e)": 583213,
+        "Measurement Date": "12/31/08",
+        "Current Population": 34399,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3617,
+          34.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Pittsburgh",
+        "Country": "USA",
+        "City Short Name": "Pittsburgh",
+        "Total City-wide Emissions (metric tonnes CO2e)": 4803046,
+        "Measurement Date": "12/31/13",
+        "Current Population": 305704,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9958864,
+          40.4406248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Reno",
+        "Country": "USA",
+        "City Short Name": "Reno",
+        "Total City-wide Emissions (metric tonnes CO2e)": 4437665,
+        "Measurement Date": "12/31/14",
+        "Current Population": 236995,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8138,
+          39.5296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Richmond, VA",
+        "Country": "USA",
+        "City Short Name": "Richmond, VA",
+        "Total City-wide Emissions (metric tonnes CO2e)": 3152498,
+        "Measurement Date": "12/31/13",
+        "Current Population": 217853,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.436048,
+          37.540725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of San Francisco",
+        "Country": "USA",
+        "City Short Name": "San Francisco",
+        "Total City-wide Emissions (metric tonnes CO2e)": 5381687,
+        "Measurement Date": "12/31/12",
+        "Current Population": 864816,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4194155,
+          37.7749295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Santa Monica",
+        "Country": "USA",
+        "City Short Name": "Santa Monica",
+        "Total City-wide Emissions (metric tonnes CO2e)": 705443,
+        "Measurement Date": "12/31/11",
+        "Current Population": 92000,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4814,
+          34.0219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Savannah",
+        "Country": "USA",
+        "City Short Name": "Savannah",
+        "Total City-wide Emissions (metric tonnes CO2e)": 3609546,
+        "Measurement Date": "12/31/14",
+        "Current Population": 144355,
+        "Primary Methodology": "International Emissions Analysis Protocol (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0998,
+          32.0835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Seattle",
+        "Country": "USA",
+        "City Short Name": "Seattle",
+        "Total City-wide Emissions (metric tonnes CO2e)": 5222000,
+        "Measurement Date": "12/31/12",
+        "Current Population": 662400,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3320708,
+          47.6062095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Somerville, MA",
+        "Country": "USA",
+        "City Short Name": "Somerville, MA",
+        "Total City-wide Emissions (metric tonnes CO2e)": 586308,
+        "Measurement Date": "12/31/14",
+        "Current Population": 78900,
+        "Primary Methodology": "Global Protocol for Community-Scale Greenhouse Gas Emissions Inventories (GPC), (WRI, C40 and ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.082647,
+          42.393449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of St Louis",
+        "Country": "USA",
+        "City Short Name": "St Louis",
+        "Total City-wide Emissions (metric tonnes CO2e)": 8703679.12,
+        "Measurement Date": "1/1/14",
+        "Current Population": 319294,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1994042,
+          38.6270025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City Name": "City of Tucson",
+        "Country": "USA",
+        "City Short Name": "Tucson",
+        "Total City-wide Emissions (metric tonnes CO2e)": 6659101,
+        "Measurement Date": "12/31/12",
+        "Current Population": 529845,
+        "Primary Methodology": "U.S. Community Protocol for Accounting and Reporting of Greenhouse Gas Emissions (ICLEI)",
+        "": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9265,
+          32.2217
+        ]
+      }
+    }
+  ]
+}
