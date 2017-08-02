@@ -1,9 +1,10 @@
 <style>
-  .popup {
+ .popup {
     position: relative;
     display: inline-block;
     
 }
+
 .popup .popuptext {
     visibility: hidden;
     width: 120px;
@@ -11,11 +12,21 @@
     color: white;
     text-align: center;
     border-radius: 6px;
-    padding: 3px 0;
+    padding: 2px;
     position: absolute;
     top: 10px;
-    left: 70px
+    left: 60px;
     
+}
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
 }
 
 .popup:hover .popuptext {
