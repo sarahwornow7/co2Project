@@ -1,24 +1,42 @@
 <style>
-.popuptext
- {
-  visibility: hidden;
- }
- .popup:hover .popuptext
- {
-  visibility: visible;
- }
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
 </style>
 <!DOCTYPE html>
 <!--Beijing webpage-->
 <head>
  
+ <div class = "tooltip">
   <a href="home_page.html"><span class = "popup"><IMG SRC="earth-spinning-rotating-animation-24.gif" ALT="spinning globe" WIDTH=90></span>
    </a>
-   <p class = "popuptext" >Home</p>
+   <span class = "tooltiptext">Home</span>
+   </div>
+  
     </head>
 <body>
  
- <h1>Beijing</h1>
+ <h1 style = "color: red">Beijing</h1>
   <p><b>Population</b>: 21.5 million
   <p><b>Recent CO<sub>2</sub> Policies</b>:<br>
   <ul>
