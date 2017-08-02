@@ -1,22 +1,20 @@
 <style>
- .hoverinfo p {
-  display: none;
-  color: #000000;
-}
-
-.hoverinfo:hover p {
-  background-color: rgba(255, 255, 255, 0.7);
-  display: block;
-}
+.popuptext
+ {
+  visibility: hidden;
+ }
+ .popup:hover .popuptext
+ {
+  visibility: visible;
+ }
 </style>
 <!DOCTYPE html>
 <!--Beijing webpage-->
 <head>
-  <div class = "hoverhome">
-  <a href="home_page.html"><span><IMG SRC="earth-spinning-rotating-animation-24.gif" ALT="spinning globe" WIDTH=90></span>
-</a>
-    <p>Home</p>
-    </div>
+ 
+  <a href="home_page.html"><span class = "popup"><IMG SRC="earth-spinning-rotating-animation-24.gif" ALT="spinning globe" WIDTH=90></span>
+   </a>
+   <p class = "popuptext" >Home</p>
     </head>
 <body>
  
