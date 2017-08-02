@@ -1,19 +1,22 @@
 <style>
-  .tooltiptext
-  {
-    visibility: hidden;
-  }
-  .tooltip:hover .tooltiptext
-  {
-    visibility: visible;
-  }
+ .hoverinfo p {
+  display: none;
+  color: #000000;
+}
+
+.hoverinfo:hover p {
+  background-color: rgba(255, 255, 255, 0.7);
+  display: block;
+}
 </style>
 <!DOCTYPE html>
 <!--Beijing webpage-->
 <head>
-  <a href="home_page.html"><IMG SRC="earth-spinning-rotating-animation-24.gif" ALT="spinning globe" WIDTH=90 class = "tooltip">
+  <div class = "hoverhome">
+  <a href="home_page.html"><span><IMG SRC="earth-spinning-rotating-animation-24.gif" ALT="spinning globe" WIDTH=90></span>
 </a>
-    <p class = "tooltiptext">Home</p>
+    <p>Home</p>
+    </div>
     </head>
 <body>
  
