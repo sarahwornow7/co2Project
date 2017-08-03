@@ -52,9 +52,28 @@
     <ul>
       <li>Mexico City plans on reducing CO<sub>2</sub> emissions by 30% by 2020. The city plans to cut emissions from transportation, waste management, and energy consumption. Read more Mexico City's plans <a href = "https://www.theguardian.com/cities/2015/nov/12/cities-must-take-lead-role-in-tackling-climate-change-says-mexico-city-mayor" target="_blank">here</a>.
       <li>To cut emissions in the transportation sector, Mexico City plans on investing $150 million to modernize public transport. Check out how Mexico City plans to create a sustainable public transport system <a href = "http://www.wri.org/blog/2015/03/150-million-transform-sustainable-transport-mexico-city" target="_blank">here</a>.
-  <h1> CO2 Emissions:</h1>
+  <div><h1 id = "emissions"> CO2 Emissions:(in metric tonnes)</h1></div>
   <hr>
   <h1>Health Info:</h1>
   
 </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script>
+          function Get(yourUrl)
+          {
+	          var Httpreq = new XMLHttpRequest();
+            Httpreq.open('GET',yourUrl, false );
+            Httpreq.send(null);
+            return Httpreq.responseText;
+          }
+           var x = JSON.parse(Get("https://data.cdp.net/resource/iqbu-zjaj.json"));
+           var $output = $('#emissions');
+           for(var i = 0; i < x.length; i++) 
+           {
+              if ((x[i].city_short_name) == 'Buenos Aires')
+           {
+    	      $output.append($('<div>').html(x[i].total_city_wide_emissions_metric_tonnes_co2e));
+            }   
+            }
+</script>
 </html>
