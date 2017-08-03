@@ -51,8 +51,27 @@
       <li>Checkout Cape Town's energy report from 2015 <a href = "http://samsetproject.net/wp-content/uploads/2016/02/SEA-Cape-Town-State-of-Energy-Report-2015.pdf">here</a>.
       <li>Cape Town's C40 <a href=" http://www.c40.org/cities/cape-town " target="_blank">Profile</a>
   </ul>
-  <h1> CO2 Emissions:</h1>
+   <div><h1 id = "emissions"> CO2 Emissions:(in metric tonnes)</h1></div>
   <hr>
   <h1>Health Info:</h1>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script>
+          function Get(yourUrl)
+          {
+	          var Httpreq = new XMLHttpRequest();
+            Httpreq.open('GET',yourUrl, false );
+            Httpreq.send(null);
+            return Httpreq.responseText;
+          }
+           var x = JSON.parse(Get("https://data.cdp.net/resource/iqbu-zjaj.json"));
+           var $output = $('#emissions');
+           for(var i = 0; i < x.length; i++) 
+           {
+              if ((x[i].city_short_name) == 'Cape Town')
+           {
+    	      $output.append($('<div>').html(x[i].total_city_wide_emissions_metric_tonnes_co2e));
+            }   
+            }
+</script>
 </body>
 </html>
