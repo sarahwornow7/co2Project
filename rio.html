@@ -58,3 +58,23 @@
   <hr>
   <h1>Health Info:</h1>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script>
+          function Get(yourUrl)
+          {
+	          var Httpreq = new XMLHttpRequest();
+            Httpreq.open('GET',yourUrl, false );
+            Httpreq.send(null);
+            return Httpreq.responseText;
+          }
+           var x = JSON.parse(Get("https://data.cdp.net/resource/iqbu-zjaj.json"));
+           var $output = $('#emissions');
+           for(var i = 0; i < x.length; i++) 
+           {
+              if ((x[i].city_short_name) == 'Rio')
+           {
+    	      $output.append($('<div>').html(x[i].total_city_wide_emissions_metric_tonnes_co2e));
+            }   
+            }
+</script>
+  </body>
+  </html>
