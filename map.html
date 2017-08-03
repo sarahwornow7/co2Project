@@ -143,6 +143,7 @@
         //   http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
         var script = document.createElement('script');
         script.type = 'text/plain';
+        
         script.setAttribute(
             'src',
             'https://rawgit.com/katlionjli/co2Project/gh-pages/co2data.geo.json');
@@ -153,6 +154,7 @@
       function eqfeed_callback(data) {
         map.data.addGeoJson(data);
       }
+      eqfeed_callback(script.src);
 // [END script-body]
 
     </script>
