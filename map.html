@@ -106,6 +106,106 @@
   </body>
 </html>
  -->
+<!--
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data Layer: Simple</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: {lat: -28, lng: 137}
+        });
+
+        // NOTE: This uses cross-domain XHR, and may not work on older browsers.
+        map.data.loadGeoJson(
+            'co2data.geo.json');
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-Lfzjm9b7e4_FWLoU_Dq-WAhlIbSkkUA&callback=initMap">
+    </script>
+  </body>
+</html>
+-->
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0" />
+    <style type="text/css">
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body id="map-container">
+    <div id="map"></div>
+    <script>
+
+// [START script-body]
+      var map;
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: { lat: 20, lng: -160 },
+          zoom: 2
+        });
+
+        // Get the earthquake data (JSONP format)
+        // This feed is a copy from the USGS feed, you can find the originals here:
+        //   http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+        var script = document.createElement('script');
+        // script.src = 'co2data.geo.json';
+        script.setAttribute(
+            'src',
+            'co2data.geo.json');
+        document.getElementsByTagName('head')[0].appendChild(script);
+      //
+      }
+      //
+      // // Defines the callback function referenced in the jsonp file.
+      function eqfeed_callback(data) {
+        map.data.addGeoJson(data);
+      }
+      // map.data.loadGeoJson(
+          // 'co2data.geo.json');
+// [END script-body]
+
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-Lfzjm9b7e4_FWLoU_Dq-WAhlIbSkkUA&callback=initMap"></script>
+  </body>
+</html> -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -142,24 +242,35 @@
         // This feed is a copy from the USGS feed, you can find the originals here:
         //   http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
         var script = document.createElement('script');
-                
         script.setAttribute(
             'src',
-            'https://rawgit.com/katlionjli/co2Project/gh-pages/co2data.geo.json');
+            'co2data.geo.json');
         document.getElementsByTagName('head')[0].appendChild(script);
+
+        // Add a basic style.
+        map.data.setStyle(function(feature) {
+          var mag = (parseFloat(feature.getProperty('mag'))) *0.00000075;
+          console.log(feature.getProperty('mag'))
+          return /** @type {google.maps.Data.StyleOptions} */({
+            icon: {
+              path: google.maps.SymbolPath.CIRCLE,
+              scale: mag,
+              fillColor: '#f00',
+              fillOpacity: 0.35,
+              strokeWeight: 0
+            }
+          });
+        });
       }
 
       // Defines the callback function referenced in the jsonp file.
       function eqfeed_callback(data) {
         map.data.addGeoJson(data);
       }
-      map.data.loadGeoJson('https://rawgit.com/katlionjli/co2Project/gh-pages/co2data.geo.json');
-      
 // [END script-body]
 
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-Lfzjm9b7e4_FWLoU_Dq-WAhlIbSkkUA&callback=initMap">
-    </script>
-  </body>
+</script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-Lfzjm9b7e4_FWLoU_Dq-WAhlIbSkkUA&callback=initMap"></script>
+</body>
 </html>
