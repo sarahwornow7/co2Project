@@ -52,8 +52,27 @@
       <li>In 2016, Lagos unveiled the Urban Transport Project, which aims to reduce carbon emissions by making their vehicles eco-friendly. Lagos plans to use natural gas as fuel for its public transport bus system (Lagos Bus Rapid Transit). Currently, road transport accounts for 50% of Nigeria's greenhouse gas emissions, so implementing natural gas to the bus service will greatly reduce the amount of CO<sub>2</sub> emissions. Read more about this recent policy <a href="Lagosenvironment.pdf" target="_blank">here</a>.
       <li>Lagos' C40 <a href="http://www.c40.org/cities/lagos" target="_blank">Profile</a>
   </ul>
-  <h1> CO2 Emissions:</h1>
+  <div><h1 id = "emissions"> CO2 Emissions:(in metric tonnes)</h1></div>
   <hr>
   <h1>Health Info:</h1>
 </body>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script>
+          function Get(yourUrl)
+          {
+	          var Httpreq = new XMLHttpRequest();
+            Httpreq.open('GET',yourUrl, false );
+            Httpreq.send(null);
+            return Httpreq.responseText;
+          }
+           var x = JSON.parse(Get("https://data.cdp.net/resource/iqbu-zjaj.json"));
+           var $output = $('#emissions');
+           for(var i = 0; i < x.length; i++) 
+           {
+              if ((x[i].city_short_name) == 'Lagos')
+           {
+    	      $output.append($('<div>').html(x[i].total_city_wide_emissions_metric_tonnes_co2e));
+            }   
+            }
+</script>
 </html>
