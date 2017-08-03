@@ -50,8 +50,27 @@
       <li>One of Lahti's goals is to cut CO<sub>2</sub> emissions in half by 2025. To help achieve this goal, Lahti joined the Finnish Sustainable Communities Network (FISU). Read about all of Lahti's environmental goals <a href="https://www.lahti.fi/en/information-about-lahti/green-lahti" target="_blank">here</a>.
       <li>To help reduce carbon emissions, Lahti's old coal plant will be replaced with a new biofuel heating plant, reducing CO<sub>2</sub> emissions by 500,000 metric tons per year. Learn more about this power plant <a href="http://biomassmagazine.com/articles/13986/nib-finances-new-biomass-heating-plant-in-finland" target="_blank">here</a>.
  </ul>
-  <h1> CO2 Emissions:</h1>
+   <div><h1 id = "emissions"> CO2 Emissions:(in metric tonnes)</h1></div>
   <hr>
   <h1>Health Info:</h1>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script>
+          function Get(yourUrl)
+          {
+	          var Httpreq = new XMLHttpRequest();
+            Httpreq.open('GET',yourUrl, false );
+            Httpreq.send(null);
+            return Httpreq.responseText;
+          }
+           var x = JSON.parse(Get("https://data.cdp.net/resource/iqbu-zjaj.json"));
+           var $output = $('#emissions');
+           for(var i = 0; i < x.length; i++) 
+           {
+              if ((x[i].city_short_name) == 'Lahti')
+           {
+    	      $output.append($('<div>').html(x[i].total_city_wide_emissions_metric_tonnes_co2e));
+            }   
+            }
+</script>
 </body>
 </html>
