@@ -49,8 +49,8 @@
       function styleFeature(feature) {
         var low = [151, 83, 34];   // color of mag 1.0
         var high = [5, 69, 54];  // color of mag 6.0 and above
-        var minMag = 1.0;
-        var maxMag = 6.0;
+        var minMag = 265.85;
+        var maxMag = 70125000;
 
         // fraction represents where the value sits between the min and max
         var fraction = (Math.min(feature.getProperty('Total City-wide Emissions (metric tonnes CO2e)'), maxMag) - minMag) /
@@ -66,7 +66,7 @@
             fillColor: color,
             fillOpacity: 2 / feature.getProperty('Total City-wide Emissions (metric tonnes CO2e)'),
             // while an exponent would technically be correct, quadratic looks nicer
-            scale: Math.pow(feature.getProperty('Total City-wide Emissions (metric tonnes CO2e)'), 2)
+            scale: Math.pow(feature.getProperty('Total City-wide Emissions (metric tonnes CO2e)'), 0.002)
           },
           zIndex: Math.floor(feature.getProperty('Total City-wide Emissions (metric tonnes CO2e)'))
         };
