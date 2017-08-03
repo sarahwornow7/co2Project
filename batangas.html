@@ -50,9 +50,27 @@
       <li>In 2015, Aboitiz power in Batangas partnered with GE's Distributed Power business to builda biomass power plant. Biomass can meet 40% of the Phillipine's energy needs. Read about this eco-friendly power plant <a href="http://www.genewsroom.com/press-releases/ge-launches-first-waste-energy-project-aseagas-philippines-province-batangas-280614" target="_blank">here</a>.
       <li>Batangas is home to a 160-hectare solar panel farm. The farm supplies power to western Batangas. Read more about the impact of this solar farm <a href="http://technology.inquirer.net/46928/ph-largest-solar-farm-up-in-batangas" target="_blank">here</a>.
   </ul>
-   <h1> CO2 Emissions:</h1>
+   <div><h1 id = "emissions"> CO2 Emissions:(in metric tonnes)</h1></div>
   <hr>
   <h1>Health Info:</h1>
-  
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script>
+          function Get(yourUrl)
+          {
+	          var Httpreq = new XMLHttpRequest();
+            Httpreq.open('GET',yourUrl, false );
+            Httpreq.send(null);
+            return Httpreq.responseText;
+          }
+           var x = JSON.parse(Get("https://data.cdp.net/resource/iqbu-zjaj.json"));
+           var $output = $('#emissions');
+           for(var i = 0; i < x.length; i++) 
+           {
+              if ((x[i].city_short_name) == 'Buenos Aires')
+           {
+    	      $output.append($('<div>').html(x[i].total_city_wide_emissions_metric_tonnes_co2e));
+            }   
+            }
+</script>
 </body>
 </html>
