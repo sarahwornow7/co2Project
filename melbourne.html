@@ -53,8 +53,27 @@
       is to make Melbourne a carbon neutral city. Read more about this policy <a href="http://www.melbourne.vic.gov.au/about-council/vision-goals/eco-city/Pages/zero-net-emissions-strategy.aspx" target="_blank">here</a>.
    <li>Melbourne's C40 <a href="http://www.c40.org/cities/melbourne" target="_blank">Profile</a>
  </ul>
-      <h1> CO2 Emissions:</h1>
+      <div><h1 id = "emissions"> CO2 Emissions:(in metric tonnes)</h1></div>
   <hr>
   <h1>Health Info:</h1>
 </body>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script>
+          function Get(yourUrl)
+          {
+	          var Httpreq = new XMLHttpRequest();
+            Httpreq.open('GET',yourUrl, false );
+            Httpreq.send(null);
+            return Httpreq.responseText;
+          }
+           var x = JSON.parse(Get("https://data.cdp.net/resource/iqbu-zjaj.json"));
+           var $output = $('#emissions');
+           for(var i = 0; i < x.length; i++) 
+           {
+              if ((x[i].city_short_name) == 'Melbourne')
+           {
+    	      $output.append($('<div>').html(x[i].total_city_wide_emissions_metric_tonnes_co2e));
+            }   
+            }
+</script>
 </html>
