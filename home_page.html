@@ -16,7 +16,14 @@ ul {
     overflow: hidden;
     background-color: #1c1c54;
      }
-
+   .sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 100px;
+    z-index: 100;
+    border-top: 0;
+}
    li {
     float: left;
    }
@@ -49,7 +56,7 @@ ul {
 </head>
 <body>
   <h1 class = "home-page">Home Page</h1>
-<ul>
+<ul class="sticky">
    <li><a href= "hong_kong.html">Hong Kong</a></li>
    <li><a href = "buenos_aires.html">Buenos Aires</a></li>
    <li><a href= "lagos.html">Lagos</a></li>
