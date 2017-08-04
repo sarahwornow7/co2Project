@@ -53,7 +53,6 @@
   <h1>Buenos Aires</h1>
 	<h2><b>Population</b>: 2,891,082</h2>
 	<div><h2 id = "emissions"><b> CO2 Emissions: </b></h2></div>
-	<b><h2> metric tonnes </h2></b>
 	
   <hr>
 	<h2><b>Health Info:</b></h2>
@@ -84,7 +83,7 @@ for(var i = 0; i < x.length; i++)
 {
   if ((x[i].city_short_name) == 'Buenos Aires')
 		{
-    	 $output.append($('<div>').html(x[i].total_city_wide_emissions_metric_tonnes_co2e));
+    	 $output.append($('<div>').html(x[i].total_city_wide_emissions_metric_tonnes_co2e) + " metric tonnes");
     }   
 }
 
