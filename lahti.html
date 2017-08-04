@@ -53,24 +53,35 @@
    <div><h1 id = "emissions"> CO2 Emissions:(in metric tonnes)</h1></div>
   <hr>
   <h1>Health Info:</h1>
+	<div id = "myhealth"></div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script>
-          function Get(yourUrl)
-          {
-	          var Httpreq = new XMLHttpRequest();
-            Httpreq.open('GET',yourUrl, false );
-            Httpreq.send(null);
-            return Httpreq.responseText;
-          }
-           var x = JSON.parse(Get("https://data.cdp.net/resource/iqbu-zjaj.json"));
-           var $output = $('#emissions');
-           for(var i = 0; i < x.length; i++) 
-           {
-              if ((x[i].city_short_name) == 'Lahti')
-           {
-    	      $output.append($('<div>').html(x[i].total_city_wide_emissions_metric_tonnes_co2e));
-            }   
-            }
+         function Get(yourUrl)
+{
+	var Httpreq = new XMLHttpRequest();
+  Httpreq.open('GET',yourUrl, false );
+  Httpreq.send(null);
+  return Httpreq.responseText;
+}
+
+var x = JSON.parse(Get("https://data.cdp.net/resource/iqbu-zjaj.json"));
+var $output = $('#emissions');
+var y = JSON.parse(Get("https://api.breezometer.com/baqi/?lat=60.9827&lon=25.6612&key=d36bc4c9f8d34431b58977c4f21d8d67"));
+var $health = $('#myhealth');
+
+for(var i = 0; i < x.length; i++) 
+{
+  if ((x[i].city_short_name) == 'Lahti')
+		{
+    	 $output.append($('<div>').html(x[i].total_city_wide_emissions_metric_tonnes_co2e));
+    }   
+}
+
+
+
+$health.append(Object.values(y["breezometer_description"]))
+$health.append(": ")  
+$health.append(Object.values(y["random_recommendations"]["health"]))
 </script>
 </body>
 </html>
