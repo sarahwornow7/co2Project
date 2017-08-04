@@ -87,6 +87,12 @@ for(var i = 0; i < x.length; i++)
 $health.append(Object.values(y["breezometer_description"]))
 $health.append(": ")  
 $health.append(Object.values(y["random_recommendations"]["health"]))
+$health.append(".\nDominant pollutant and effects: ")
+$health.append(Object.values(y["dominant_pollutant_text"]["main"]))
+$health.append(" ")  
+$health.append(Object.values(y["dominant_pollutant_text"]["effects"]))
+$health.append(" \nCauses: ")
+$health.append(Object.values(y["dominant_pollutant_text"]["causes"]))
 
 </script>
 </html>
