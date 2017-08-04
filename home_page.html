@@ -87,68 +87,59 @@ ul {
     			border-radius: 50%;
 			}
 		
-img {
-    opacity: 1.0;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+</style>
+	<style>
+.container {
+  position: relative;
+  width: 50%;
 }
 
-img:hover {
-    opacity: 0.5;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
-}
-		
-		div#projectlist {
-    width: 770px;
-    margin:0 auto;
-    margin-top:20px;
-    margin-bottom:40px;
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-div#buzzbutton {
-        display:block;
-        float:left;
-        margin:2px;
-        background: url(content/assets/thumbnails/design/buzz_sprite.jpg) 0 0px no-repeat;
-        width: 150px;
-        height: 150px;
-    }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
 
-    div#buzzbutton:hover {
-        background:url(content/assets/thumbnails/design/buzz_sprite.jpg);
-        width:150px;
-        height:150px;
-        background-position:0 -150px;
-    }
+.container:hover .overlay {
+  opacity: .5;
+}
 
-div#slinksterbutton {
-        display:block;
-        float:left;
-        background:url(content/assets/thumbnails/design/slinkster_sprite.jpg) 0 0px no-repeat;
-        width: 150px;
-        height: 150px;
-        margin:2px;
-    }
-
-    div#slinksterbutton:hover {
-        background:url(content/assets/thumbnails/design/slinkster_sprite.jpg);
-        width:150px;
-        height:150px;
-        background-position:0 -150px;
-    }
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 </style>
 	  
    <hr>
-	<div id="projectlist">
-                <div id="buzzbutton"><a  href="buzz.html" title=""><img src="content/assets/thumbnails/transparent_150x150.png" alt="" /></a></div>
-
-                <div id="slinksterbutton"><a href="slinkster.html" title=""><img src="content/assets/thumbnails/transparent_150x150.png" alt="" /></a></div>             
-</div>
 
    <h1 class = "CO2-Info"><p style="color:#05990C;font-size:40px;">MAP</p></h1>
-     <p>This map will allow you to see cities with the most pollution and cities with far less pollution.</p>
- 		<a href="https://katlionjli.github.io/co2Project/static_map.html">
-	<img class = "img-circle" src ="https://pbs.twimg.com/media/DGZ5QCFWAAIC5a3.jpg:large" 
+     <p></p>
+ <div class="container">
+		<a href="https://katlionjli.github.io/co2Project/static_map.html">
+	<img class = "img-circle" src ="https://pbs.twimg.com/media/DGZ5QCFWAAIC5a3.jpg:large"  
 	     alt = "factory" class="image" length ="400" width ="400"/></a> <hr>
+  <div class="overlay">
+    <div class="text">This map will allow you to see cities with the most pollution and cities with far less pollution.</div>
+  </div>
+</div>
 	
   <h1 class = "CO2-Info"><p style="color:#05990C;font-size:40px;">CO<sub>2</sub> Info</p></h1>
      <p>Carbon dioxide is one of the main greenhouses gases causing climate change.</p>	
