@@ -50,59 +50,38 @@ ul {
 }
 
 .image {
+  opacity: 1;
   display: block;
   width: 100%;
   height: auto;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #CBC2C0;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
   transition: .5s ease;
+  backface-visibility: hidden;
 }
 
-.container:hover .overlay {
-  height: 100%;
-}
-
-.text {
-  white-space: nowrap; 
-  color: white;
-  font-size: 20px;
+.middle {
+  transition: .5s ease;
+  opacity: 0;
   position: absolute;
-  overflow: hidden;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-div.wrapper{
-	float:left; /* important */
-	position:relative; /* important(so we can absolutely position the description div */
-}
-div.description{
-	position:absolute; /* absolute position (so we can position it where we want)*/
-	bottom:0px; /* position will be on bottom */
-	left:0px;
-	width:100%;
-	/* styling bellow */
-	background-color:black;
-	color:white;
-	opacity:0.6; /* transparency */
-	filter:alpha(opacity=60); /* IE transparency */
-}
-p.description_content{
-	padding:10px;
-	margin:0px;
-	font-size: 30px;
+  -ms-transform: translate(-50%, -50%)
 }
 
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
   </style>
 </head>
 <body>
@@ -130,22 +109,13 @@ p.description_content{
    <p>Click <a href = https://katlionjli.github.io/co2Project/generalinfo.html>here</a> for more CO<sub>2</sub> information.</p>
  <!-- Image Overlay -->
 <div class="container">
-  <img src="factory-1.jpg" alt="factory" class="image">
-  <div class="overlay">
-    <div class="text">Click the button to go to the page.</div>
-<button type="button" style="width:100px; height:100px"><center><a href="generalinfo.html">Click Me!</a></center></button>
-  </div>
+  <img src="factory-1.jpg" alt="factory" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">Click the button to go to the page.
+<button type="button" style="width:100px; height:75"><center><a href="generalinfo.html">Click Me!</a></center></button>
+	  </div></div>
 </div>
 	<!-- end --> 
-   <!-- Text on image -->
-   <div class='wrapper'>
-	<img src='factory-1.jpg' alt="factory" style="height:250px;width:500px"/>
-	<div class='description'>
-		<p class='description_content'>Click the button to go to the page</p>
-      <button type="button" style="width:100px; height:75px"><a href="generalinfo.html">Click me!</a></button>
-	</div>
-</div>
-	<!-- end -->
    <hr>
    <h1 class = "CO2-Info"><p style="color:#05990C;font-size:40px;">MAP</p></h1>
      <p>This map will allow you to see cities with the most pollution and cities with far less pollution.</p>
