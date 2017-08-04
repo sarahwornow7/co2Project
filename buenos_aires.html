@@ -36,7 +36,15 @@
 .popup:hover .popuptext {
     visibility: visible;
 }
-
+.population
+{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+#emissions
+{
+	padding-bottom: 10px;
+}
 </style>
 <!DOCTYPE html>
 <!--Delhi changed to buenos aires webpage-->
@@ -52,7 +60,7 @@
     </head>
 <body>
   <h1>Buenos Aires</h1>
-	<h2><b>Population</b>: 2,891,082</h2>
+	<h2 class = "population"><b>Population</b>: 2,891,082</h2>
 	<div><h2 id = "emissions"><b> CO2 Emissions: </b></h2></div>
 	
 	
@@ -85,7 +93,7 @@ for(var i = 0; i < x.length; i++)
 {
   if ((x[i].city_short_name) == 'Buenos Aires')
 		{
-    	 $output.append($('<div>').html(x[i].total_city_wide_emissions_metric_tonnes_co2e + " metric tonnes"));
+    	 $output.append(x[i].total_city_wide_emissions_metric_tonnes_co2e + " metric tonnes");
     }   
 }
 
