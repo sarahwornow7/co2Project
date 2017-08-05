@@ -100,7 +100,7 @@ title,h2,p,h1
 	padding-top: 5px;
 	padding-bottom: 15px;
 }
-.hinfo
+#hinfo
 {
 	padding-left: 10px;
 	padding-top: 10px;
@@ -156,7 +156,7 @@ a
 	
 	 </div>
 	<div class = "second-background">
-<b><h2 class = "hinfo">Current health:</h2></b>
+<b><h2 id = "hinfo">Current health: </h2></b>
 <div id = "myhealth"></div>
 		   
 		    
@@ -182,6 +182,7 @@ a
 
 var x = JSON.parse(Get("https://data.cdp.net/resource/iqbu-zjaj.json"));
 var $output = $('#emissions');
+var $healthinfo = $('#hinfo');								     
 var y = JSON.parse(Get("https://api.breezometer.com/baqi/?lat=-34.61315&lon=-58.37723&key=d36bc4c9f8d34431b58977c4f21d8d67"));
 var $health = $('#myhealth');
 
@@ -194,8 +195,7 @@ for(var i = 0; i < x.length; i++)
 }
 
 
-$health.append(Object.values(y["breezometer_description"]))
-$health.append(": ")  
+$healthinfo.append(Object.values(y["breezometer_description"])) 
 $health.append(Object.values(y["random_recommendations"]["health"]))
 $health.append(".\nDominant pollutant and effects: ")
 $health.append(Object.values(y["dominant_pollutant_text"]["main"]))
