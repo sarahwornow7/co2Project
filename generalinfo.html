@@ -9,9 +9,12 @@
    background-color: #1c1c54;
    overflow: hidden;
   }
-  .navbarli {
+  .navbarlitop {
    float:left;
   }
+    .navbarlibottom {
+       float: right;
+    }
   .navbarli a {
    display: block;
    color: #00d200;
@@ -28,10 +31,10 @@
  </style>
  <font size="50px" id="top"><b><center>CO<sub>2</sub> Info </center></b></font>
  <ul class="navbar">
-  <li class="navbarli"><a href="home_page.html">Home</a>
-  <li class="navbarli"><a href="#info">Info</a>
-  <li class="navbarli"><a href="#greenhouse">Greenhouse Gas</a>
-  <li class="navbarli"><a href="#climate">Climate Change</a>
+  <li class="navbarlitop"><a href="home_page.html">Home</a>
+  <li class="navbarlitop"><a href="#info">Info</a>
+  <li class="navbarlitop"><a href="#greenhouse">Greenhouse Gas</a>
+  <li class="navbarlitop"><a href="#climate">Climate Change</a>
  </ul>
 <body>
  <h3 id="info"><em><b> What is carbon dioxide?</b></em></h3>
@@ -94,7 +97,9 @@
  <p>Why is this important now? Visit: <a href="http://400.350.org/#in-the-news" target="_blank">400 PPM</a></p>
  <p><a href="#top">Back to top</a>
     <div align="right">
-    <a href="source.html" "#general">Sources</a>
+    <ul class="navbar">
+       <li class="navbarlibottom"><a href="source.html" "#general">Sources</a>
+ </ul>
 </div>
 </body>
 </html>
