@@ -2,44 +2,52 @@
     <title>FAQ</title>
     <link rel="icon" href = "http://accenthydroponics.com/images/feature_variant/3/CO2.png">
 <style>
-    
-    .navbar {
+     .navbar {
    list-style-type: none;
    margin:0;
    padding:0;
    background-color: #1c1c54;
    overflow: hidden;
   }
-    
-  .navbarli {
+  .navbarlitop {
    float:left;
   }
-    
-  .navbarli a {
+    .navbarlibottom {
+       float: right;
+    }
+  .navbarlitop a {
    display: block;
    color: #00d200;
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
   }
-    
-  .navbarli a:hover {
+  .navbarlitop a:hover {
    background-color: white;
   }
-    
   .navbar .active{
+   background-color: white;
+  }
+    .navbarlibottom a {
+   display: block;
+   color: #00d200;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+  }
+  .navbarlibottom a:hover {
    background-color: white;
   }
     
  </style>
  <font size=50px;color:#05990C; id="top"><b><center>FAQ</center></b></font>
  <ul class="navbar">
-  <li class="navbarli"><a href="home_page.html">Home</a>
-  <li class="navbarli"><a href="#general">General Questions</a>
-  <li class="navbarli"><a href="#diet">Diet</a>
-  <li class="navbarli"><a href="#homeenergy">Home Energy</a>
-  <li class="navbarli"><a href="#parisagreement">Paris Agreement</a>
-  <li class="navbarli"><a href="#car">Cars</a>
+  <li class="navbarlitop"><a href="home_page.html">Home</a>
+  <li class="navbarlitop"><a href="#general">General Questions</a>
+  <li class="navbarlitop"><a href="#diet">Diet</a>
+  <li class="navbarlitop"><a href="#homeenergy">Home Energy</a>
+  <li class="navbarlitop"><a href="#parisagreement">Paris Agreement</a>
+  <li class="navbarlitop"><a href="#car">Cars</a>
 </ul>
     
 <body>
@@ -171,9 +179,9 @@
                 <li>Kia Optima</li>
         </ol>
     <a href="#top">Back to top</a>
-    <div align="right">
-        <a href="source.html" "#faq">Sources</a>
-    </div>
+    <ul class="navbar">
+  <li class="navbarlibottom"><a href="source.html" "#faq">Sources</a>
+    </ul>
 
    <!-- <h6 id = "diet"><b>Diet</b></h2>
     <h7 id = "diet"><b>Diet</b></h2>-->
