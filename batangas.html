@@ -159,12 +159,7 @@ a
 	<h2 class = "population"><b>Population</b>: 2,694,335</h2>
 	<div><h2 id = "emissions"><b> Current CO2 Emissions: </b></h2></div>
 	</div>
-	<div class = "second background">
-		<b><h2 id = "hinfo">Current health: </h2></b>
-<div id = "myhealth"></div>
-		   
-		    
-	  </div>
+	
 	<div class = "third-background">
     <h2 class = "policies"><b>Recent CO<sub>2</sub> Policies</b>:<br></h2>
     <ul>
@@ -173,7 +168,7 @@ a
   </ul>
 	</div>
  
-  <h1>Health Info:</h1>
+  
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script>
           function Get(yourUrl)
@@ -189,7 +184,7 @@ a
            {
               if ((x[i].city_short_name) == 'Batangas')
            {
-    	      $output.append($('<div>').html(x[i].total_city_wide_emissions_metric_tonnes_co2e));
+    	      $output.append(x[i].total_city_wide_emissions_metric_tonnes_co2e + " metric tonnes");
             }   
             }
 </script>
