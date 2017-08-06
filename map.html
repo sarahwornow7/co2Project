@@ -234,6 +234,11 @@
         height: 100%;
       }
       /* Optional: Makes the sample page fill the window. */
+      img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+      }
       html, body {
         height: 100%;
         margin: 0;
@@ -243,6 +248,7 @@
   </head>
   <body id="map-container">
     <div id="map"></div>
+    <img src="mapLegend.png" alt="Map Legend" style="width:200px;" margin-left=>
     <script>
       var map;
 
