@@ -189,11 +189,11 @@ a
 var x = JSON.parse(Get("https://data.cdp.net/resource/iqbu-zjaj.json"));
 var $output = $('#emissions');
 var $healthinfo = $('#hinfo');								     
-var y = JSON.parse(Get("https://api.breezometer.com/baqi/?lat=-34.61315&lon=-58.37723&key=d36bc4c9f8d34431b58977c4f21d8d67"));
+var y = JSON.parse(Get("https://api.breezometer.com/baqi/?lat=60.9827&lon=25.6612&key=d36bc4c9f8d34431b58977c4f21d8d67"));
 var $health = $('#myhealth');
 for(var i = 0; i < x.length; i++) 
 {
-  if ((x[i].city_short_name) == 'Buenos Aires')
+  if ((x[i].city_short_name) == 'Lahti')
 		{
     	 $output.append(x[i].total_city_wide_emissions_metric_tonnes_co2e + " metric tonnes");
     }   
