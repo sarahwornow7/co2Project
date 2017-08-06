@@ -143,10 +143,12 @@ a
 }
 </style>
 <!DOCTYPE html>
+<div class = "background">
 <!--hong kong webpage-->
 <head>
     <link rel="icon" href = "http://accenthydroponics.com/images/feature_variant/3/CO2.png">
- <div class = "popup">
+<title = "Hong Kong">
+	<div class = "popup">
   <a href="home_page.html"><IMG SRC="earth-spinning-rotating-animation-24.gif" ALT="spinning globe" WIDTH=90>
    </a>
    <span class = "popuptext">Home</span>
@@ -155,9 +157,16 @@ a
     </head>
 <body>
  
- <h1 style = "color: black">Hong Kong</h1>
-  <p><b>Population</b>: 7,406,908 
-  <p><b>Recent CO<sub>2</sub> Policies</b>:<br>
+ <h1 class = "hongkong">Hong Kong</h1>
+	<h2 class = "population"><b>Population</b>: 7,406,908 </h2>
+	<div><h2 id = "emissions"><b> Current CO2 Emissions: </b></h2></div>
+	</div>
+	<div class = "second background">
+<b><h2 id = "hinfo">Current health: </h2></b>
+<div id = "myhealth"></div>
+	</div>
+	<div class = "third-background">
+		<h2 class = "policies"><b>Recent CO<sub>2</sub> Policies</b>:<br></h2>
   <ul>
     <li>In 2015, Hong Kong established a goal to decrease CO<sub>2</sub> emissions by 50% (from the 2005 level). 
         In 2012, Hong Kong recorded a 19% drop in CO<sub>2</sub> emissions, meaning the city is on 
@@ -166,10 +175,9 @@ a
     <li>Checkout Hong Kong's CO<sub>2</sub> policies <a href="https://www.gov.hk/en/residents/environment/global/climate.htm" target="_blank">here</a>.
       <li>Hong Kong's C40 <a href="http://www.c40.org/cities/hong-kong" target="_blank">Profile</a>
     </ul>
-  <div><h1 id = "emissions"> CO2 Emissions:(in metric tonnes)</h1></div>
-  <hr>
-  <h1>Health Info:</h1>
-  <div id = "myhealth"></div>
+
+  
+ 
 </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script>
