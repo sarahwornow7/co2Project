@@ -119,7 +119,7 @@ title,h2,p,h1
 	border-right-width: 150px;
 	border-color: aquamarine;
 }
-.lagos
+.batangas
 {
 	position: relative;
 	bottom: 50px;
@@ -143,9 +143,10 @@ a
 }
 </style>
 <!DOCTYPE html>
+<div class = "background">
 <!--Lagos webpage-->
-<head>
-     <link rel="icon" href = "http://accenthydroponics.com/images/feature_variant/3/CO2.png">
+<head>   
+ <link rel="icon" href = "http://accenthydroponics.com/images/feature_variant/3/CO2.png">
   <div class = "popup">
   <a href="home_page.html"><IMG SRC="earth-spinning-rotating-animation-24.gif" ALT="spinning globe" WIDTH=90>
    </a>
@@ -154,17 +155,20 @@ a
     
     </head>
 <body>
-  <h1>Lagos</h1>
-    <p><b>Population</b>: 22.7 million
-    <p><b>Recent CO<sub>2</sub> Policies</b>:<br>
+  <h1 class = "batangas">Lagos</h1>
+	<h2 class = "population"><b>Population</b>: 21,000,000</h2>
+	<div><h2 id = "emissions"><b> Current CO2 Emissions: </b></h2></div>
+	</div>
+	
+	<div class = "third-background">
+    <h2 class = "policies"><b>Recent CO<sub>2</sub> Policies</b>:<br></h2>
     <ul>
-      <li>In 2016, Lagos unveiled the Urban Transport Project, which aims to reduce carbon emissions by making their vehicles eco-friendly. Lagos plans to use natural gas as fuel for its public transport bus system (Lagos Bus Rapid Transit). Currently, road transport accounts for 50% of Nigeria's greenhouse gas emissions, so implementing natural gas to the bus service will greatly reduce the amount of CO<sub>2</sub> emissions. Read more about this recent policy <a href="Lagosenvironment.pdf" target="_blank">here</a>.
-      <li>Lagos' C40 <a href="http://www.c40.org/cities/lagos" target="_blank">Profile</a>
+      <li>In 2015, Aboitiz power in Batangas partnered with GE's Distributed Power business to builda biomass power plant. Biomass can meet 40% of the Phillipine's energy needs. Read about this eco-friendly power plant <a href="http://www.genewsroom.com/press-releases/ge-launches-first-waste-energy-project-aseagas-philippines-province-batangas-280614" target="_blank">here</a>.
+      <li>Batangas is home to a 160-hectare solar panel farm. The farm supplies power to western Batangas. Read more about the impact of this solar farm <a href="http://technology.inquirer.net/46928/ph-largest-solar-farm-up-in-batangas" target="_blank">here</a>.
   </ul>
-  <div><h1 id = "emissions"> CO2 Emissions:(in metric tonnes)</h1></div>
-  <hr>
-  <h1>Health Info:</h1>
-</body>
+	</div>
+ 
+  
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script>
           function Get(yourUrl)
@@ -180,8 +184,9 @@ a
            {
               if ((x[i].city_short_name) == 'Lagos')
            {
-    	      $output.append($('<div>').html(x[i].total_city_wide_emissions_metric_tonnes_co2e));
+    	      $output.append(x[i].total_city_wide_emissions_metric_tonnes_co2e + " metric tonnes");
             }   
             }
 </script>
+</body>
 </html>
