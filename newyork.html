@@ -119,7 +119,7 @@ title,h2,p,h1
 	border-right-width: 150px;
 	border-color: aquamarine;
 }
-.newyork
+.buenosaires
 {
 	position: relative;
 	bottom: 50px;
@@ -143,57 +143,62 @@ a
 }
 </style>
 <!DOCTYPE html>
-<!--New York webpage-->
+<div class = "background">
+<!--Delhi changed to buenos aires webpage-->
 <head>
-    <link rel="icon" href = "http://accenthydroponics.com/images/feature_variant/3/CO2.png">
+  <link rel="icon" href = "http://accenthydroponics.com/images/feature_variant/3/CO2.png">
+  <title="Buenos Aires"">
   <div class = "popup">
   <a href="home_page.html"><IMG SRC="earth-spinning-rotating-animation-24.gif" ALT="spinning globe" WIDTH=90>
    </a>
    <span class = "popuptext">Home</span>
    </div>
     
-   </head>
+    </head>
+	 
 <body>
- <h1>New York</h1>
-  <p><b>Population</b>: 21.5 million
-  <p><b>Recent CO<sub>2</sub> Policies</b>:<br>
-  <ul>
-  <li>New York City citizens to fight against climate change in carbon challange. Read about it <a href = "http://www.nyc.gov/html/gbee/html/challenge/nyc-carbon-challenge.shtml" target="_blank">here</a>.
-  <li>Read more about New York City's carbon offset projects <a href = "http://www.dec.ny.gov/energy/53449.html" target="_blank">here</a>.
-   <li>New York City's C40 <a href="http://www.c40.org/cities/new-york" target="_blank">Profile</a>
+  <h1 class = "buenosaires">Buenos Aires</h1>
+	<h2 class = "population"><b>Population</b>: 2,891,082</h2>
+	<div><h2 id = "emissions"><b> Current CO2 Emissions: </b></h2></div>
+	
+	
+	 </div>
+	<div class = "second-background">
+<b><h2 id = "hinfo">Current health: </h2></b>
+<div id = "myhealth"></div>
+		   
+		    
+	  </div>
+		  <div class = third-background>
+	<h2 class = "policies"><b>Recent CO<sub>2</sub> Policies</b>:<br></h2>
+    <ul>
+      <li>Buenos Aires signed the "Pacto Climatico Global de Ciudades", or the Global Cities Climate Compact, in 2010. The city has set a goal to reduce CO<sub>2</sub> emissions by 30%. Read more about Buenos Aires in the Global Covenant of Mayors <a href = "http://www.globalcovenantofmayors.org/cities/buenos-aires/#climate" target="_blank">here</a>.
+      <li>Buenos Aires uses four core pillars to reduce CO<sub>2</sub> emissions: waste, transport, energy, and planting trees. Read more about how Buenos Aires reduces CO<sub>2</sub> emissions <a href = "https://www.bbhub.io/mayors/sites/14/2015/09/Plan-de-accion-resumen-en-ingles.pdf" target="_blank">here</a>.
+      <li>Buenos Aires' C40 <a href="http://www.c40.org/cities/buenos-aires" target="_blank">Profile</a>
   </ul>
-  <div><h1 id = "emissions"> CO2 Emissions:(in metric tonnes)</h1></div>
-  <hr>
-  <h1>Health Info:</h1>
-	<div id = "myhealth"></div>
-</body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script>
-          function Get(yourUrl)
+         function Get(yourUrl)
 {
 	var Httpreq = new XMLHttpRequest();
   Httpreq.open('GET',yourUrl, false );
   Httpreq.send(null);
   return Httpreq.responseText;
 }
-
 var x = JSON.parse(Get("https://data.cdp.net/resource/iqbu-zjaj.json"));
 var $output = $('#emissions');
-var y = JSON.parse(Get("https://api.breezometer.com/baqi/?lat=40.7324296&lon=-73.9977264&key=d36bc4c9f8d34431b58977c4f21d8d67"));
+var $healthinfo = $('#hinfo');								     
+var y = JSON.parse(Get("https://api.breezometer.com/baqi/?lat=-34.61315&lon=-58.37723&key=d36bc4c9f8d34431b58977c4f21d8d67"));
 var $health = $('#myhealth');
-
 for(var i = 0; i < x.length; i++) 
 {
-  if ((x[i].city_short_name) == 'New York City')
+  if ((x[i].city_short_name) == 'Buenos Aires')
 		{
-    	 $output.append($('<div>').html(x[i].total_city_wide_emissions_metric_tonnes_co2e));
+    	 $output.append(x[i].total_city_wide_emissions_metric_tonnes_co2e + " metric tonnes");
     }   
 }
-
-
-
-$health.append(Object.values(y["breezometer_description"]))
-$health.append(": ")  
+$healthinfo.append(Object.values(y["breezometer_description"])) 
 $health.append(Object.values(y["random_recommendations"]["health"]))
 $health.append(".\nDominant pollutant and effects: ")
 $health.append(Object.values(y["dominant_pollutant_text"]["main"]))
@@ -201,5 +206,7 @@ $health.append(" ")
 $health.append(Object.values(y["dominant_pollutant_text"]["effects"]))
 $health.append(" \nCauses: ")
 $health.append(Object.values(y["dominant_pollutant_text"]["causes"]))
+								  
 </script>
+</body>
 </html>
