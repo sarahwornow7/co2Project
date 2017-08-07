@@ -2,7 +2,46 @@
   <title>Footprint</title>
   <link rel="icon" href = "http://accenthydroponics.com/images/feature_variant/3/CO2.png">
   <style>
-    
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+main {
+  width: 100%;
+}
+input {
+  display: none;
+  visibility: hidden;
+}
+label {
+  display: block;
+}
+label:hover {
+  color:  #867D7B;
+}
+label::before {
+  font-weight: bold;
+  font-size: 17px;
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 1px;
+  position: absolute;
+  left: 73px;
+  content: " +";
+  text-align: center;
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+}
+#expand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+#toggle:checked ~ #expand {
+  height: 330px;
+}
+#toggle:checked ~ label::before {
+  content: "-";
+}
     .navbar {
    list-style-type: none;
    margin:0;
@@ -14,7 +53,10 @@
   .navbarli {
    float:left;
   }
-    
+ body
+{
+	background-color: #d7e6e2;
+}
   .navbarli a {
    display: block;
    color: #00d200;
@@ -38,7 +80,7 @@
     }
     
  </style>
- <font size=50px;color:#05990C;id="top"><b><center>Carbon Footprint </center></b></font>
+ <font size=50px id="top"><b><center style="color:#05990C">Carbon Footprint </center></b></font>
  <ul class="navbar">
   <li class="navbarli"><a href="home_page.html">Home</a>
   <li class="navbarli"><a href="#geninfo">Info</a>
@@ -62,7 +104,27 @@
      <h3 id = "reduction"><center>Reducing Your Carbon Footprint</center></h3>
   <p><b><em>Ways to reduce your carbon footprint:</em></b></p>
 <ol>
-  <li><p><b>Diet</b></p>
+   <li><input id="toggle" type="checkbox" checked>
+     <label for="toggle"><b>Diet</b></label>
+  <div id="expand">
+    <section>
+       <p><i>Eat locally produced and organic food</i></p>
+    <ul>
+      <li> 13% of US greenhouse gas emissions results from the production and transportation of food </li>
+    </ul>
+    <p><i>Cut out beef and dairy</i></p>
+    <ul>
+      <li> It takes a lot of resources to raise cows</li>
+      <li> Methane (another destructive greenhouse gas) is produced from the animals' bodily waste </li>
+      <li> Animal agriculture is responsible for 18% of greenhouse gas emissions, more than the combined exhaust from all transportation</li>
+      <li> Livestock and their byproducts are responsible for at least 32 billion tons of carbon dioxide
+      per year or 51% of all world wide greenhouse emissions</li>
+      <li> Emissions for agriculture projects are supposed to increase by 80% by 2050</li>
+      <li> Cows produce 150 billion gallons of methane per day</li>
+      </ul>
+    </section>
+  </div>
+<!--   <li><p><b>Diet</b></p>
     <p><i>Eat locally produced and organic food</i></p>
     <ul>
       <li> 13% of US greenhouse gas emissions results from the production and transportation of food </li>
@@ -77,7 +139,7 @@
       <li> Emissions for agriculture projects are supposed to increase by 80% by 2050</li>
       <li> Cows produce 150 billion gallons of methane per day</li>
       </ul>
-  </li>
+  </li> -->
   <li><p style= font-size: 20px><b>Compost your food waste</b></p></li>
   <li><p style= font-size: 20px><b>Vehicle Travel </b></p>
     <ul>
