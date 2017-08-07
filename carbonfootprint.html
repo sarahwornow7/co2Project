@@ -26,7 +26,7 @@ label::before {
   height: 20px;
   margin-right: 1px;
   position: absolute;
-  left: 73px;
+  left: 75px;
   content: " +";
   text-align: center;
   background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
@@ -37,7 +37,7 @@ label::before {
   transition: height 0.5s;
 }
 #toggle:checked ~ #expand {
-  height: 330px;
+  height: 250px;
 }
 #toggle:checked ~ label::before {
   content: "-";
@@ -141,7 +141,10 @@ label::before {
       </ul>
   </li> -->
   <li><p style= font-size: 20px><b>Compost your food waste</b></p></li>
-  <li><p style= font-size: 20px><b>Vehicle Travel </b></p>
+  <li><input id="toggle" type="checkbox" checked><p style= font-size: 20px>
+   <label for="toggle"><b>Vehicle Travel</b></label>
+   <div id="expand">
+    <section>
     <ul>
       <li>Try to walk/ride your bike more often that you drive. If you have to drive, try to carpool.</li>
       <li> Drive a low carbon vehicle </li>
@@ -151,7 +154,8 @@ label::before {
       <li> Properly inflated tires can improve your mileage by up to 3% </li>
       <li>Avoid traffic by using <a href = "https://www.compare.com/auto-insurance/news/top-3-best-traffic-apps" target="_blank">traffic apps</a> </li>
     </ul>
-  </li>
+  </section>
+  </div>
  <li><p style= font-size: 20px><b> Air Travel</b></p>
     <ul>
     <li>Take fewer and longer vacations that are farther away</li>
