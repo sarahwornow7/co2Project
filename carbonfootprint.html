@@ -31,8 +31,19 @@ label::before {
   overflow: hidden;
   transition: height 0.5s;
 }
+	  #expand2 {
+		  height: 0px;
+		  overflow: hidden;
+		  transition: heigh 0.5s;
+	  }
+	  #toggle2:checked ~ #expand {
+		  height:auto;
+	  }
+	  #toggle2:checked ~ label::before {
+		  content:"-";
+	  }
 #toggle:checked ~ #expand {
-  height: 250px;
+  height: auto;
 }
 #toggle:checked ~ label::before {
   content: "-";
@@ -99,7 +110,7 @@ label::before {
      <h3 id = "reduction"><center>Reducing Your Carbon Footprint</center></h3>
   <p><b><em>Ways to reduce your carbon footprint:</em></b></p>
 <ol>
-   <li><input id="toggle" type="checkbox" checked>
+   <li><input id="toggle" type="checkbox" unchecked>
      <label for="toggle"><b>Diet</b></label>
   <div id="expand">
     <section>
@@ -136,9 +147,9 @@ label::before {
       </ul>
   </li> -->
   <li><p style= font-size: 20px><b>Compost your food waste</b></p></li>
-  <li><input id="toggle" type="checkbox" checked><p style= font-size: 20px>
-   <label for="toggle"><b>Vehicle Travel</b></label>
-   <div id="expand">
+  <li><input id="toggle2" type="checkbox" checked><p style= font-size: 20px>
+   <label for="toggle2"><b>Vehicle Travel</b></label>
+   <div id="expand2">
     <section>
     <ul>
       <li>Try to walk/ride your bike more often that you drive. If you have to drive, try to carpool.</li>
