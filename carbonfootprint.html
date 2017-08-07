@@ -2,11 +2,6 @@
   <title>Footprint</title>
   <link rel="icon" href = "http://accenthydroponics.com/images/feature_variant/3/CO2.png">
   <style>
-    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
-
-main {
-  width: 100%;
-}
 input {
   display: none;
   visibility: hidden;
@@ -25,17 +20,11 @@ label::before {
   width: 20px;
   height: 20px;
   margin-right: 1px;
-  position: absolute;
-  left: 75px;
+  position: relative;
+  left: -3px;
   content: " +";
   text-align: center;
   background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
-	  }
-.diet label::before {
-	left:75px;
-	  }
-.vehicle label::before {
-	left:150px;
 	  }
 #expand {
   height: 0px;
@@ -112,7 +101,7 @@ label::before {
 <ol>
    <li><input id="toggle" type="checkbox" checked>
      <label for="toggle"><b>Diet</b></label>
-  <div id="expand" class="diet">
+  <div id="expand">
     <section>
        <p><i>Eat locally produced and organic food</i></p>
     <ul>
@@ -149,7 +138,7 @@ label::before {
   <li><p style= font-size: 20px><b>Compost your food waste</b></p></li>
   <li><input id="toggle" type="checkbox" checked><p style= font-size: 20px>
    <label for="toggle"><b>Vehicle Travel</b></label>
-   <div id="expand" class="vehicle">
+   <div id="expand">
     <section>
     <ul>
       <li>Try to walk/ride your bike more often that you drive. If you have to drive, try to carpool.</li>
