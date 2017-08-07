@@ -57,6 +57,11 @@ label::before {
   overflow: hidden;
   transition: height 0.5s;
 }
+	    #expand7 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
 
 #toggle2:checked ~ #expand2 {
   height: auto;
@@ -92,6 +97,12 @@ label::before {
   height: auto;
 }
 #toggle6:checked ~ label::before {
+  content: "-";
+}
+	  #toggle7:checked ~ #expand7 {
+  height: auto;
+}
+#toggle7:checked ~ label::before {
   content: "-";
 }
 
@@ -250,17 +261,17 @@ label::before {
     <li>Water saving shower heads, dishwashers, and washing machines </li>
   </ul>
 	  </div>
-  <li><input id="toggle5" type="checkbox" unchecked><p style= font-size: 20px>
-   <label for="toggle5"><b>Reduce, Reuse, and Recycle</b></label>
-   <div id="expand5">
+  <li><input id="toggle6" type="checkbox" unchecked>
+   <label for="toggle6"><b>Reduce, Reuse, and Recycle</b></label>
+   <div id="expand6">
   <ul>
 <!--     <li> 29% of US greenhouse gas emissions is from the provision of good (excludes food)</li> -->
     <li> Buy used products and resell/recycle items that you no longer use </li>
   </ul>
 	  </div>
- <li><input id="toggle6" type="checkbox" unchecked><p style= font-size: 20px>
-   <label for="toggle6"><b>Support Clean Energy Sources</b></label>
-   <div id="expand6">
+ <li><input id="toggle7" type="checkbox" unchecked>
+   <label for="toggle7"><b>Support Clean Energy Sources</b></label>
+   <div id="expand7">
   <ul>
     <li>Advocate for clean alternatives to fossil fuels, such as wind, solar, and geothermal</li></ul>
 	 </div>
