@@ -36,6 +36,27 @@ label::before {
 	overflow: hidden;
 	transition: height 0.5s;
 	}
+	  #expand3 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+	  #expand4 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+	  #expand5 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+	  #expand6 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
 #toggle2:checked ~ #expand2 {
   height: auto;
 }
@@ -48,6 +69,31 @@ label::before {
 #toggle:checked ~ label::before {
   content: "-";
 }
+	  #toggle3:checked ~ #expand3 {
+  height: auto;
+}
+#toggle3:checked ~ label::before {
+  content: "-";
+}
+	  #toggle4:checked ~ #expand4 {
+  height: auto;
+}
+#toggle4:checked ~ label::before {
+  content: "-";
+}
+	  #toggle5:checked ~ #expand5 {
+  height: auto;
+}
+#toggle5:checked ~ label::before {
+  content: "-";
+}
+	  #toggle6:checked ~ #expand6 {
+  height: auto;
+}
+#toggle6:checked ~ label::before {
+  content: "-";
+}
+
     .navbar {
    list-style-type: none;
    margin:0;
@@ -160,14 +206,20 @@ label::before {
       <li>Avoid traffic by using <a href = "https://www.compare.com/auto-insurance/news/top-3-best-traffic-apps" target="_blank">traffic apps</a> </li>
     </ul>
   </div>
- <li><p style= font-size: 20px><b> Air Travel</b></p>
+ <li><input id="toggle3" type="checkbox" unchecked><p style= font-size: 20px>
+     <label for="toggle3"><b>Air Travel</b></label>
+	 <div id="expand3">
     <ul>
     <li>Take fewer and longer vacations that are farther away</li>
     <li>Fly less frequently</li>
     <li>Fly economy class because each flyer splits the value of the carbon emissions </li>
    </ul>
+	</div>
   </li>
- <li><p style= font-size: 20px><b>Home Energy</b></p>
+
+   <li><input id="toggle4" type="checkbox" unchecked><p style= font-size: 20px>
+   <label for="toggle4"><b>Home Energy</b></label>
+   <div id="expand4">
   <p style= font-size: 20px><em>Appliances</em></p>
     <ul><li> Rake energy efficiency a top priority in your home by buying appliances with the <a href="https://www.energystar.gov/products/how-product-earns-energy-star-label" target="_blank">ENERGY STAR</a> label</li>
     </ul>
@@ -180,24 +232,34 @@ label::before {
     <ul>
     <li>Add solar panels to the roof of your home</li>
     </ul>
+	   </div>
   </li>
 <li><p style= font-size: 20px><b>Participate in low-energy activities. Instead of sky diving go running.</b></p>
 <li><p style= font-size: 20px><b> Minimize the amount of purchases you make. Refrain from indulging yourself with products too often.</b> </p>
-<li><p style= font-size: 20px><b>Water Usage</b></p>
+  <li><input id="toggle5" type="checkbox" unchecked><p style= font-size: 20px>
+   <label for="toggle5"><b>Water Usage</b></label>
+   <div id="expand5">
   <ul>
     <li>The average person uses 1500 gallons of water per day and half of that is due to meat and dairy products</li>
     <li> Wash your car less often</li>
     <li> Drip irrigation so your plants get what they need</li>
     <li>Water saving shower heads, dishwashers, and washing machines </li>
   </ul>
-<li><p style= font-size: 20px><b>Reduce, Reuse, and Recycle</b></p>
+	  </div>
+  <li><input id="toggle5" type="checkbox" unchecked><p style= font-size: 20px>
+   <label for="toggle5"><b>Reduce, Reuse, and Recycle</b></label>
+   <div id="expand5">
   <ul>
 <!--     <li> 29% of US greenhouse gas emissions is from the provision of good (excludes food)</li> -->
     <li> Buy used products and resell/recycle items that you no longer use </li>
   </ul>
-<li><p style= font-size: 20px><b>Support Clean Energy Sources</b></p>
+	  </div>
+ <li><input id="toggle6" type="checkbox" unchecked><p style= font-size: 20px>
+   <label for="toggle6"><b>Support Clean Energy Sources</b></label>
+   <div id="expand6">
   <ul>
     <li>Advocate for clean alternatives to fossil fuels, such as wind, solar, and geothermal</li></ul>
+	 </div>
 </ol>
   <a href="#top">Back to top</a>
 </body>
