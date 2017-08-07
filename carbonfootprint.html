@@ -26,6 +26,76 @@ label::before {
   text-align: center;
   background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
 	  }
+	  label2::before {
+  font-weight: bold;
+  font-size: 17px;
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 1px;
+  position: relative;
+  left: -3px;
+  content: " +";
+  text-align: center;
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+	  }
+	  label3::before {
+  font-weight: bold;
+  font-size: 17px;
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 1px;
+  position: relative;
+  left: -3px;
+  content: " +";
+  text-align: center;
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+	  }
+	  label4::before {
+  font-weight: bold;
+  font-size: 17px;
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 1px;
+  position: relative;
+  left: -3px;
+  content: " +";
+  text-align: center;
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+	  }
+	  label5::before {
+  font-weight: bold;
+  font-size: 17px;
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 1px;
+  position: relative;
+  left: -3px;
+  content: " +";
+  text-align: center;
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+	  }
+	  label6::before {
+  font-weight: bold;
+  font-size: 17px;
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 1px;
+  position: relative;
+  left: -3px;
+  content: " +";
+  text-align: center;
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+	  }
 #expand {
   height: 0px;
   overflow: hidden;
@@ -60,7 +130,7 @@ label::before {
 #toggle2:checked ~ #expand2 {
   height: auto;
 }
-#toggle2:checked ~ label::before {
+#toggle2:checked ~ label2::before {
   content: "-";
 }
 #toggle:checked ~ #expand {
@@ -72,25 +142,25 @@ label::before {
 	  #toggle3:checked ~ #expand3 {
   height: auto;
 }
-#toggle3:checked ~ label::before {
+#toggle3:checked ~ label3::before {
   content: "-";
 }
 	  #toggle4:checked ~ #expand4 {
   height: auto;
 }
-#toggle4:checked ~ label::before {
+#toggle4:checked ~ label4::before {
   content: "-";
 }
 	  #toggle5:checked ~ #expand5 {
   height: auto;
 }
-#toggle5:checked ~ label::before {
+#toggle5:checked ~ label5::before {
   content: "-";
 }
 	  #toggle6:checked ~ #expand6 {
   height: auto;
 }
-#toggle6:checked ~ label::before {
+#toggle6:checked ~ label6::before {
   content: "-";
 }
 
@@ -130,6 +200,9 @@ label::before {
     h3{
       font-size: 40px;
     }
+  p {
+	  font-size: 20px;
+	  }
     
  </style>
  <font size=50px id="top"><b><center style="color:#05990C">Carbon Footprint </center></b></font>
@@ -192,8 +265,8 @@ label::before {
       <li> Cows produce 150 billion gallons of methane per day</li>
       </ul>
   </li> -->
-  <li><p style= font-size: 20px><b>Compost your food waste</b></p></li>
-  <li><input id="toggle2" type="checkbox" unchecked><p style= font-size: 20px>
+  <li><p><b>Compost your food waste</b></p></li>
+  <li><input id="toggle2" type="checkbox" unchecked>
    <label for="toggle2"><b>Vehicle Travel</b></label>
    <div id="expand2">
     <ul>
@@ -206,7 +279,7 @@ label::before {
       <li>Avoid traffic by using <a href = "https://www.compare.com/auto-insurance/news/top-3-best-traffic-apps" target="_blank">traffic apps</a> </li>
     </ul>
   </div>
- <li><input id="toggle3" type="checkbox" unchecked><p style= font-size: 20px>
+ <li><input id="toggle3" type="checkbox" unchecked>
      <label for="toggle3"><b>Air Travel</b></label>
 	 <div id="expand3">
     <ul>
@@ -217,18 +290,18 @@ label::before {
 	</div>
   </li>
 
-   <li><input id="toggle4" type="checkbox" unchecked><p style= font-size: 20px>
+   <li><input id="toggle4" type="checkbox" unchecked>
    <label for="toggle4"><b>Home Energy</b></label>
    <div id="expand4">
-  <p style= font-size: 20px><em>Appliances</em></p>
+  <p><em>Appliances</em></p>
     <ul><li> Rake energy efficiency a top priority in your home by buying appliances with the <a href="https://www.energystar.gov/products/how-product-earns-energy-star-label" target="_blank">ENERGY STAR</a> label</li>
     </ul>
-  <p style= font-size: 20px><em>Lighting</em></p>
+  <p><em>Lighting</em></p>
     <ul><li>Replace incandescent lightbulbs with compact fluorescents and/or LED bulbs</li></ul>
-  <p style= font-size: 20px><em>Thermostat</em></p>
+  <p><em>Thermostat</em></p>
     <ul><li>Refrain from using heater or A/C when not necessary and turn these systems off when you leave your home</li>
     </ul>
-  <p style= font-size: 20px><em>Solar</em></p>
+  <p><em>Solar</em></p>
     <ul>
     <li>Add solar panels to the roof of your home</li>
     </ul>
