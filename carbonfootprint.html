@@ -31,17 +31,17 @@ label::before {
   overflow: hidden;
   transition: height 0.5s;
 }
-	  #expand2 {
-		  height: 0px;
-		  overflow: hidden;
-		  transition: heigh 0.5s;
-	  }
-	  #toggle2:checked ~ #expand {
-		  height:auto;
-	  }
-	  #toggle2:checked ~ label::before {
-		  content:"-";
-	  }
+#expand2 {
+	height: 0px;
+	overflow: hidden;
+	transition: heigh 0.5s;
+	}
+#toggle2:checked ~ #expand {
+  height:auto;
+}
+#toggle2:checked ~ label::before {
+  content:"-";
+}
 #toggle:checked ~ #expand {
   height: auto;
 }
@@ -147,10 +147,9 @@ label::before {
       </ul>
   </li> -->
   <li><p style= font-size: 20px><b>Compost your food waste</b></p></li>
-  <li><input id="toggle2" type="checkbox" checked><p style= font-size: 20px>
+  <li><input id="toggle2" type="checkbox" unchecked><p style= font-size: 20px>
    <label for="toggle2"><b>Vehicle Travel</b></label>
    <div id="expand2">
-    <section>
     <ul>
       <li>Try to walk/ride your bike more often that you drive. If you have to drive, try to carpool.</li>
       <li> Drive a low carbon vehicle </li>
@@ -160,7 +159,6 @@ label::before {
       <li> Properly inflated tires can improve your mileage by up to 3% </li>
       <li>Avoid traffic by using <a href = "https://www.compare.com/auto-insurance/news/top-3-best-traffic-apps" target="_blank">traffic apps</a> </li>
     </ul>
-  </section>
   </div>
  <li><p style= font-size: 20px><b> Air Travel</b></p>
     <ul>
