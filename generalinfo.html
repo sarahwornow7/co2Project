@@ -65,6 +65,42 @@
 	border-color: crimson;
 	
 }
+	 input {
+  display: none;
+  visibility: hidden;
+}
+label {
+  display: block;
+}
+label:hover {
+  color:  #867D7B;
+}
+label::before {
+  font-weight: bold;
+  font-size: 17px;
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 1px;
+  position: relative;
+  left: -3px;
+  content: " +";
+  text-align: center;
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+	  }
+	 
+#expand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+	 #toggle:checked ~ #expand {
+  height: auto;
+}
+#toggle:checked ~ label::before {
+  content: "-";
+}
  </style>
  <font size="50px" id="top" style="color:#05990C"><b><center>CO<sub>2</sub> Info </center></b></font>
  <ul class="navbar">
@@ -92,7 +128,9 @@
 
  <h1 id="greenhouse"><center>Greenhouse Gas</center></h1>
  <p><h3><b><em> What gases contribute to the greenhouse gas effect? </b></em></h3></p>
- <p>There are four gases that contribute to the greenhouse gas effect: Nitrous oxide, water vapor, methane, and carbon dioxide.</p>
+ <input id="toggle" type="checkbox" unchecked>
+   <label for="toggle">There are four gases that contribute to the greenhouse gas effect: Nitrous oxide, water vapor, methane, and carbon dioxide.</label>
+   <div id="expand">
  <p><b> Nitrous oxide:</b> A powerful greenhouse gas produced by soil cultivation practices,
  especially the use of commercial and organic fertilizers, fossil fuel combustion, nitric acid
   production, and biomass burning.</p>
@@ -110,6 +148,7 @@
  activities such as deforestation, land use changes, and burning fossil fuels. Humans have increased
   atmospheric CO<sub>2</sub> concentration by more than a third since the Industrial Revolution began. This is 
  the most important long-lived "forcing" of climate change.</p>
+</div>
 <!-- <p><h3><b><em>How is water vapor a greenhouse gas?</b></em></h3></p>
  By definition of water vapor, it is H<sub>2</sub>O in its gaseous form.  -->
 <p><h3><b><em> What is the overall consensus?</b></em></h3></p>
