@@ -30,7 +30,13 @@ label::before {
   content: " +";
   text-align: center;
   background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
-}
+	  }
+.dietlabel::before {
+	left:75px;
+	  }
+.vehiclelabel::before {
+	left:150px;
+	  }
 #expand {
   height: 0px;
   overflow: hidden;
@@ -106,7 +112,7 @@ label::before {
 <ol>
    <li><input id="toggle" type="checkbox" checked>
      <label for="toggle"><b>Diet</b></label>
-  <div id="expand">
+  <div id="expand" class="diet">
     <section>
        <p><i>Eat locally produced and organic food</i></p>
     <ul>
@@ -143,7 +149,7 @@ label::before {
   <li><p style= font-size: 20px><b>Compost your food waste</b></p></li>
   <li><input id="toggle" type="checkbox" checked><p style= font-size: 20px>
    <label for="toggle"><b>Vehicle Travel</b></label>
-   <div id="expand">
+   <div id="expand" class="vehicle">
     <section>
     <ul>
       <li>Try to walk/ride your bike more often that you drive. If you have to drive, try to carpool.</li>
