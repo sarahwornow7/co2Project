@@ -34,6 +34,19 @@ body
     border-style: solid;
     border-color: transparent black transparent transparent;
 }
+	 div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.4;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+div.transbox p {
+  margin: 2%;
+  font-weight: bold;
+  color: #000000;
+  z-index: -2;
+}
 .popup:hover .popuptext {
     visibility: visible;
 }
@@ -161,9 +174,11 @@ a
     </head>
 	 
 <body>
-  <h1 class = "buenosaires">Cape Town</h1>
-	<h2 class = "population"><b>Population</b>: 3,736,000</h2>
-	<div><h2 id = "emissions"><b> Current CO2 Emissions: </b></h2></div>
+		<div class="transbox">
+			<h1 class = "buenosaires">Cape Town</h1></div>
+	<div class="transbox">
+		<h2 class = "population"><b>Population</b>: 3,736,000</h2></div>
+			<div class="transbox"><div><h2 id = "emissions"><b> Current CO2 Emissions: </b></h2></div></div>
 	
 	
 	 </div>
