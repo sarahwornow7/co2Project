@@ -305,7 +305,7 @@ function animateBackground() {
 
         image.delay(4000).fadeOut(1000, function(){
 
-            $(this).css("background-image", "url(" + url + ")")
+            image.css("background-image", "url(" + url + ")")
 
         }).fadeIn(1000, animateBackground())
 
