@@ -1,17 +1,25 @@
 
 <!DOCTYPE html>
-<html>
+
 	<img src = footprint.jpg alt = "CO2" length = "100" width = "100">
 	<h1 style= color: black; font-size: 40px;><b><em>CO<sub>2</sub> Tracker</b></em></h1>
 
    <title>CO2</title>
    <link rel="icon" href = "http://accenthydroponics.com/images/feature_variant/3/CO2.png">
    <style>
-	   h1{
-		   display: inline-block;
-	   }
+	  .fader
+{
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  left:0;
+  top:0;
+  z-index: -99;
+   background-size: cover;
+}
+   
 ul {
-    position: relative;
+    position: fixed;
     top: 0px;
     right: 2px;
     width: 100%;
@@ -19,29 +27,26 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #1c1c54;
+    background-color:#d0b5d2;
      }
-   ul {
-   left: 0px;
-   top: 0px;
-   z-index: 1;
-   }
+  
    li {
     float: left;
    }
-
    li a {
     display: block;
-    color: #00d200;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
    }
-
    li a:hover {
-    background-color: #0F7B33;
+    background-color: #e0dbdf;
    }
-   
+	   h1{
+		   display: inline-block;
+	   }
+
    .home-page
       {
          text-align: center;
@@ -59,7 +64,6 @@ ul {
   position: relative;
   width: 50%;
 }
-
 
   .text {
   color: white;
@@ -216,7 +220,27 @@ span {
 		  </tr>
 
 </table>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script>
+    var count = 0;
+  var images = ["https://qzprod.files.wordpress.com/2015/09/101.jpg?quality=80&strip=all&w=3666", 
+                "https://wallpaperscraft.com/image/iceland_jokulsarlon_beach_ice_coast_sky_95953_1600x900.jpg",
+                "http://news.nationalgeographic.com/content/dam/news/photos/000/860/86080.jpg"
+               ];
+  var image = $(".fader");
+  image.css("background-image","url("+images[count++]+")");
+  setInterval(function(){
+    image.fadeOut(500, function(){
+      image.css("background-image","url("+images[count]+")");
+       count++;
+      image.fadeIn(500);
+    });
+    if(count == images.length)
+    {
+      count = 0;
+    }
+  },5000);
+   </script>
 
  </body>
 </html>
