@@ -282,18 +282,30 @@ together to make Earth a cleaner place by taking responsibility for our individu
 		"http://media.cntraveler.com/photos/57ee9a13196e3f9630631fee/master/pass/climate-change-maldives-GettyImages-552085039.jpg"
                ];
   var image = $(".fader");
-  image.css("background-image","url("+images[count]+")");
-  setInterval(function(){
-    image.fadeOut(500, function(){
-      image.css("background-image","url("+images[count]+")");
-       count++;
-      image.fadeIn(500);
+//   image.css("background-image","url("+images[count]+")");
+//   setInterval(function(){
+//     image.fadeOut(500, function(){
+//       image.css("background-image","url("+images[count]+")");
+//        count++;
+//       image.fadeIn(500);
+//     });
+//     if(count == images.length-1)
+//     {
+//       count = 0;
+//     }
+//   },10000);
+	  
+var index = 0;
+
+function changeBanner() {
+    [].forEach.call(images, function(v, i) {
+        images[i].hidden = i !== index
     });
-    if(count == images.length-1)
-    {
-      count = 0;
-    }
-  },10000);
+    index = (index + 1) % images.length;
+}
+window.onload = function() {
+    setInterval(changeBanner, 1000)
+};
    </script>
 
 		</div>
