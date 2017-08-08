@@ -303,7 +303,7 @@ function animateBackground() {
 
         var url = images[images.push(images.shift()) - 1];
 
-        image.delay(5000).fadeOut(1000, function(){
+        image.fadeOut(1000, function(){
 
             image.css("background-image", "url(" + url + ")")
 
