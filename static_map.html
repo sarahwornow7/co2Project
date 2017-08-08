@@ -8,7 +8,7 @@
        * element that contains the map. */
       #map {
         height: 100%;
-        
+
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
@@ -25,7 +25,7 @@
     </style>
   </head>
   <body id="map-container">
-    
+
     <div id="map"></div>
 <!--     <img src = "mapLegend.png"; alt = "Map Legend"; style = "height:200px";> -->
     <script>
@@ -51,13 +51,13 @@
         map.data.addGeoJson(data);
       }
       function styleFeature(feature) {
-        var low = [151, 83, 34];   // color of mag 1.0
-        var high = [5, 69, 54];  // color of mag 6.0 and above
-        var minMag = 265.85;
-        var maxMag = (70125000/2);
+        var low = [151, 83, 34];   // color of Emissions 1.0
+        var high = [5, 69, 54];  // color of Emissions 6.0 and above
+        var minEmissions = 265.85;
+        var maxEmissions = (70125000/2);
         // fraction represents where the value sits between the min and max
-        var fraction = (Math.min(feature.getProperty('mag'), maxMag) - minMag) /
-            (maxMag - minMag);
+        var fraction = (Math.min(feature.getProperty('Emissions'), maxEmissions) - minEmissions) /
+            (maxEmissions - minEmissions);
         var color = interpolateHsl(low, high, fraction);
         return {
           icon: {
@@ -65,11 +65,11 @@
             strokeWeight: 0.5,
             strokeColor: '#fff',
             fillColor: color,
-            fillOpacity: 20000000 / (parseFloat(feature.getProperty('mag'))),
+            fillOpacity: 20000000 / (parseFloat(feature.getProperty('Emissions'))),
             // while an exponent would technically be correct, quadratic looks nicer
-            scale: (parseFloat(feature.getProperty('mag'))) *0.00000075
+            scale: (parseFloat(feature.getProperty('Emissions'))) *0.00000075
           },
-          zIndex: Math.floor(feature.getProperty('mag'))
+          zIndex: Math.floor(feature.getProperty('Emissions'))
         };
       }
       function interpolateHsl(lowHsl, highHsl, fraction) {
