@@ -295,7 +295,7 @@ together to make Earth a cleaner place by taking responsibility for our individu
 //     }
 //   },10000);
 	  
-image.delay(4000).fadeIn(1000, animateBackground());
+image.delay(10).fadeIn(1000, animateBackground());
 
 function animateBackground() {
 
@@ -307,7 +307,7 @@ function animateBackground() {
 
             image.css("background-image", "url(" + url + ")")
 
-        }).fadeIn(1000, animateBackground())
+        }).fadeIn(1000, animateBackground()).delay(4000)
 
     });
 }
