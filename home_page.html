@@ -295,17 +295,22 @@ together to make Earth a cleaner place by taking responsibility for our individu
 //     }
 //   },10000);
 	  
-var index = 0;
+image.delay(1000).fadeIn(1000, animateBackground());
 
-function changeBanner() {
-    [].forEach.call(images, function(v, i) {
-        images[i].hidden = i !== index
+function animateBackground() {
+
+    window.setTimeout(function(){
+
+        var url = images[images.push(images.shift()) - 1];
+
+        image.delay(4000).fadeOut(1000, function(){
+
+            $(this).css("background-image", "url(" + url + ")")
+
+        }).fadeIn(1000, animateBackground())
+
     });
-    index = (index + 1) % images.length;
 }
-window.onload = function() {
-    setInterval(changeBanner, 1000)
-};
    </script>
 
 		</div>
