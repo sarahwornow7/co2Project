@@ -160,13 +160,15 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.dropdown input[type=text] {
-    float: right;
-    padding: 12px 16px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 30px;
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
 }
 .eco
 {
@@ -228,7 +230,6 @@ div.transbox p {
   </li>
   <li><a href = "faq.html">FAQ</a></li>
   <li><a href = "source.html">Sources</a></li>
-  <li><input type="text" placeholder="Search cities..">
 </ul>
 		<p class= "eco"><b>ECO<sub>2</sub>Change</b></p>
 <div class="transbox">
@@ -237,6 +238,8 @@ CO2 emissions are an environmental problem which means that they are also a heal
 to understand how reducing your carbon footprint not only helps you, but can help someone thousands of miles away. Hopefully, we can come<br>
 together to make Earth a cleaner place by taking responsibility for our individual impacts.</i></p>
 </div>
+<input type="text" name="search" placeholder="Search..">
+
 	<div class = "fader">
 <table align = "top">
   <tr>	  
