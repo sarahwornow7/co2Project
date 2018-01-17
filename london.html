@@ -186,22 +186,33 @@ a
 		  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script>
-function Get(yourUrl)
-          {
-	          var Httpreq = new XMLHttpRequest();
-            Httpreq.open('GET',yourUrl, false );
-            Httpreq.send(null);
-            return Httpreq.responseText;
-          }
-           var x = JSON.parse(Get("https://data.cdp.net/resource/iqbu-zjaj.json"));
-           var $output = $('#emissions');
-           for(var i = 0; i < x.length; i++) 
-           {
-              if ((x[i].city_short_name) == 'London')
-           {
-    	      $output.append(x[i].total_city_wide_emissions_metric_tonnes_co2e + " metric tonnes");
-            }   
-            }
+         function Get(yourUrl)
+{
+	var Httpreq = new XMLHttpRequest();
+  Httpreq.open('GET',yourUrl, false );
+  Httpreq.send(null);
+  return Httpreq.responseText;
+}
+var x = JSON.parse(Get("https://data.cdp.net/resource/iqbu-zjaj.json"));
+var $output = $('#emissions');
+var $healthinfo = $('#hinfo');								     
+var y = JSON.parse(Get("https://api.breezometer.com/baqi/?lat=22.3964&lon=114.1095&key=d36bc4c9f8d34431b58977c4f21d8d67"));
+var $health = $('#myhealth');
+for(var i = 0; i < x.length; i++) 
+{
+  if ((x[i].city_short_name) == 'London')
+		{
+    	 $output.append(x[i].total_city_wide_emissions_metric_tonnes_co2e + " metric tonnes");
+    }   
+}
+$healthinfo.append(Object.values(y["breezometer_description"])) 
+$health.append(Object.values(y["random_recommendations"]["health"]))
+$health.append(".\nDominant pollutant and effects: ")
+$health.append(Object.values(y["dominant_pollutant_text"]["main"]))
+$health.append(" ")  
+$health.append(Object.values(y["dominant_pollutant_text"]["effects"]))
+$health.append(" \nCauses: ")
+$health.append(Object.values(y["dominant_pollutant_text"]["causes"]))
 								  
 </script>
 </body>
