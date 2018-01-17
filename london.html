@@ -200,19 +200,19 @@ var y = JSON.parse(Get("https://api.breezometer.com/baqi/?lat=51.508530&lon=0.07
 var $health = $('#myhealth');
 for(var i = 0; i < x.length; i++) 
 {
-  if ((x[i].city_short_name) == 'London ')
+  if ((x[i].city_short_name) == 'London')
 		{
     	 $output.append(x[i].total_city_wide_emissions_metric_tonnes_co2e + " metric tonnes");
     }   
 }
-$healthinfo.append(Object.values(y["breezometer_description"])) 
-$health.append(Object.values(y["random_recommendations"]["health"]))
-$health.append(".\nDominant pollutant and effects: ")
-$health.append(Object.values(y["dominant_pollutant_text"]["main"]))
-$health.append(" ")  
-$health.append(Object.values(y["dominant_pollutant_text"]["effects"]))
-$health.append(" \nCauses: ")
-$health.append(Object.values(y["dominant_pollutant_text"]["causes"]))
+$healthinfo.append(Object.values(y["breezometer_description"]));
+$health.append(Object.values(y["random_recommendations"]["health"]));
+$health.append(".\nDominant pollutant and effects: ");
+$health.append(Object.values(y["dominant_pollutant_text"]["main"]));
+$health.append(" ");
+$health.append(Object.values(y["dominant_pollutant_text"]["effects"]));
+$health.append(" \nCauses: ");
+$health.append(Object.values(y["dominant_pollutant_text"]["causes"]));
 								  
 </script>
 </body>
