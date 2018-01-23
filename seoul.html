@@ -200,7 +200,7 @@ var y = JSON.parse(Get("https://api.breezometer.com/baqi/?lat=37.566535&lon=126.
 var $health = $('#myhealth');
 for(var i = 0; i < x.length; i++) 
 {
-  if ((x[i].city_short_name) == 'Seoul')
+  if ((x[i].city_name) == 'Seoul Metropolitan Government')
 		{
     	 $output.append(x[i].total_city_wide_emissions_metric_tonnes_co2e + " metric tonnes");
     }   
