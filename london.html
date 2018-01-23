@@ -200,7 +200,7 @@ var y = JSON.parse(Get("https://api.breezometer.com/baqi/?lat=51.507351&lon=-0.1
 var $health = $('#myhealth');
 for(var i = 0; i < x.length; i++) 
 {
-  if ((x[i].city_short_name) == 'London')
+  if ((x[i].city_short_name) == '"London "')
 		{
     	 $output.append(x[i].total_city_wide_emissions_metric_tonnes_co2e + " metric tonnes");
     }   
