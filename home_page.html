@@ -302,21 +302,10 @@ together to make Earth a cleaner place by taking responsibility for our individu
 		<!--<p class= "eco">ECO<sub>2</sub>Change</p>-->
 	    </div>
 	    
-function filterFunction() {
-    var input, filter, ul, li, a, i;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    div = document.getElementById("myDropdown");
-    a = div.getElementsByTagName("a");
-    for (i = 0; i < a.length; i++) {
-        if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
-            a[i].style.display = "";
-        } else {
-            a[i].style.display = "none";
-        }
-    }
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script>
+	
     var count = 0;
   var images = ["https://qzprod.files.wordpress.com/2015/09/101.jpg?quality=80&strip=all&w=3666", 
                 "https://wallpaperscraft.com/image/iceland_jokulsarlon_beach_ice_coast_sky_95953_1600x900.jpg",
@@ -353,6 +342,19 @@ function animateBackground() {
 
     });
 }
+	   function filterFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("myDropdown");
+    a = div.getElementsByTagName("a");
+    for (i = 0; i < a.length; i++) {
+        if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+            a[i].style.display = "";
+        } else {
+            a[i].style.display = "none";
+        }
+    }
    </script>
 
 		</div>
