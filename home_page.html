@@ -223,7 +223,7 @@ div.transbox p {
 	<ul>
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">Locations</a>
-    <div class="dropdown-content">
+    <div class="dropdown-content" id="myDropdown">
 	<input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
 <!--   <a href="javascript:void(0)" class="dropbtn"><Asia</a> -->
    <a href= "hong_kong.html">Hong Kong</a>
@@ -342,7 +342,8 @@ function animateBackground() {
 
     });
 }
-	   function filterFunction() {
+	   
+function filterFunction() {
     var input, filter, ul, li, a, i;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
@@ -354,7 +355,7 @@ function animateBackground() {
         } else {
             a[i].style.display = "none";
         }
-    }
+ }
    </script>
 
 		</div>
