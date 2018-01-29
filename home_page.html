@@ -1,6 +1,9 @@
 <!DOCTYPE html>
    <title>CO2</title>
    <link rel="icon" href = "http://accenthydroponics.com/images/feature_variant/3/CO2.png">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <style>
 	  .fader
 {
@@ -210,6 +213,9 @@ div.transbox p {
   color: #000000;
     z-index: -98;
 }
+	   .dropdown-submenu {
+    position: relative;
+}
   body{
 	  overflow-x:hidden;
 	     overflow-y: scroll;
@@ -226,21 +232,33 @@ div.transbox p {
     <div class="dropdown-content" id="myDropdown">
 	 <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"></input>
 <!--   <a href="javascript:void(0)" class="dropbtn"><Asia</a> -->
-   <a href= "hong_kong.html">Hong Kong</a>
-   <a href = "buenos_aires.html">Buenos Aires</a>
-   <a href= "lagos.html">Lagos</a>
-   <a href="london.html">London</a>
-   <a href= "melbourne.html">Melbourne</a>
-   <a href= "newyork.html">New York</a>
-   <a href = "vancouver.html">Vancouver</a>
-   <a href = "san_francisco.html">San Francisco</a>
-   <a href= "seoul.html">Seoul</a>
-   <a href = "rio.html">Rio</a>
-  <a href = "batangas.html">Batangas</a>
-   <a href = "mexico_city.html">Mexico City</a>
- <a href = "cape_town.html">Cape Town</a>
-   <a href = "tokyo.html">Tokyo</a>
-		    <a href = "lahti.html">Lahti</a>
+  <li class="dropdown">North America</li>
+  <li class="dropdown-submenu">
+	     <a href = "san_francisco.html">San Francisco</a>
+	     <a href= "newyork.html">New York</a>
+	     <a href = "vancouver.html">Vancouver</a>
+  <li class="dropdown">South America</li>
+	  <li class="dropdown-submenu">
+	   <a href = "buenos_aires.html">Buenos Aires</a>
+   	   <a href = "mexico_city.html">Mexico City</a>
+	   <a href = "rio.html">Rio</a>
+  <li class="dropdown">Europe</li>
+	 <li class="dropdown-submenu">
+   		<a href="london.html">London</a>
+	        <a href = "lahti.html">Lahti</a>
+  <li class="dropdown">Asia</li>
+	<li class="dropdown-submenu">
+		 <a href = "batangas.html">Batangas</a>
+		<a href= "hong_kong.html">Hong Kong</a>
+		<a href= "seoul.html">Seoul</a>
+		<a href = "tokyo.html">Tokyo</a>
+  <li class="dropdown">Africa</li>
+	<li class="dropdown-submenu">
+  	 <a href= "lagos.html">Lagos</a>
+	<a href = "cape_town.html">Cape Town</a>
+  <li class="dropdown">Oceania</li>
+	<li class="dropdown-submenu">
+  	 <a href= "melbourne.html">Melbourne</a>
     </div>
   </li>
   <li><a href = "faq.html">FAQ</a></li>
