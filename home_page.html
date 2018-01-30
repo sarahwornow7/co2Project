@@ -127,6 +127,17 @@ ul {
 li {
     float: left;
 }
+
+#dropdowncontinents {
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	   }
+#dropdowncontinents:hover {
+	    background-color: #05990C;
+	   }
 li a, .dropbtn {
     display: inline-block;
     color: white;
@@ -234,7 +245,6 @@ div.transbox p {
     <span class="caret"></span></button>
     <!-- <a href="javascript:void(0)" class="dropbtn">Locations</a> -->
   <!--  <div class="dropdown-content" id="myDropdown">
-	 <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"></input>
 <!--   <a href="javascript:void(0)" class="dropbtn"><Asia</a> -->
  <!-- <li class="dropdown">North America</li>
   <li class="dropdown-submenu">
@@ -265,44 +275,11 @@ div.transbox p {
   	 <a href= "melbourne.html">Melbourne</a> -->
 		<li class="dropdown">
 			
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Locations
     <a href="javascript:void(0)" class="dropbtn">Locations</a>
+    <span class="caret"></span></button>
     <div class="dropdown-content">
-	    <ul><li>Africa</li>
-	    	<ul class="dropdown">
-			<li><a href= "lagos.html">Lagos</a>
-			<li><a href = "cape_town.html">Cape Town</a>
-	    	</ul>
-	    <li>Asia</li>
-	     	<ul class="dropdown">
-			<a href = "batangas.html">Batangas</a>
-			<a href= "hong_kong.html">Hong Kong</a>
-			<a href= "seoul.html">Seoul</a>
-			<a href = "tokyo.html">Tokyo</a>
-	    	</ul>
-	    <li>Europe</li>
-	    	<ul class="dropdown"> 
-	    		<a href="london.html">London</a>
-	        	<a href = "lahti.html">Lahti</a>
-	    	</ul>
-	    <li>Oceania</li>
-	    	<ul class="dropdown">
-			<a href= "melbourne.html">Melbourne</a>
-	    	</ul>
-	    <li>North America</li>
-	    	<ul class="dropdown">
-			<a href = "san_francisco.html">San Francisco</a>
-			<a href= "newyork.html">New York</a>
-			<a href = "vancouver.html">Vancouver</a>
-	   	</ul>
-	    <li>South America</li>
-	    	<ul class="dropdown">
-			<a href = "buenos_aires.html">Buenos Aires</a>
-			<a href = "mexico_city.html">Mexico City</a>
-			<a href = "rio.html">Rio</a>
-	    	</ul>
-	    </ul>
-	    
-<!--   <a href="javascript:void(0)" class="dropbtn"><Asia</a> 
+   <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"></input>
    <a href= "hong_kong.html">Hong Kong</a>
    <a href = "buenos_aires.html">Buenos Aires</a>
    <a href= "lagos.html">Lagos</a>
@@ -317,7 +294,7 @@ div.transbox p {
    <a href = "mexico_city.html">Mexico City</a>
  <a href = "cape_town.html">Cape Town</a>
    <a href = "tokyo.html">Tokyo</a>
-		    <a href = "lahti.html">Lahti</a>-->
+		    <a href = "lahti.html">Lahti</a>
     </div>
   </li>
   <li><a href = "faq.html">FAQ</a></li>
