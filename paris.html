@@ -1,0 +1,198 @@
+<style>
+ body
+{
+	margin: 0 auto;
+	padding: 0px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+  .popup {
+    position: relative; 
+    display: inline-block;
+    
+}
+.popup .popuptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 2px;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    
+}
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+.popup:hover .popuptext {
+    visibility: visible;
+}
+.popup:hover .popuptext {
+    visibility: visible;
+}
+.population
+{
+	position: relative;
+	top: 10px;
+	padding-left: 10px;
+	color: black;
+	font-size: 30px;
+	padding-bottom: 60px;
+	font-weight:bold;
+}
+#emissions
+{
+	padding-bottom: 70px;
+	padding-right:5px;
+	position: relative;
+	top: 50px;
+	color: black;
+	font-size: 30px;
+	font-weight:bold;
+}
+p
+{
+	text-align: justify;
+}
+title,h2,p,h1
+{
+	padding-left: 10px;
+	text-align: center;
+}
+#myhealth
+{
+	padding-left: 110px;
+	text-align: justify;
+	padding-bottom: 80px;
+	font-size: 20px;
+	padding-top: 30px;
+	padding-right:150px;
+}
+.background
+{
+/* 	background-image: url("http://4.bp.blogspot.com/-djQtd7QRZa8/VjIiyupUYUI/AAAAAAAAIuE/NlRr9H-VnZ4/s1600/fog-covered-fir-forest-photography-hd-wallpaper-1920x1080-3465.jpg"); */
+	background-image: url("parisimage.jpg");
+	background-size: cover;
+	padding-bottom: 15px;
+	
+}
+.second-background
+{
+	margin: 0;
+	padding: 0;
+	background-color: #d7e6e2;
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+.third-background
+{
+	margin: 0;
+	padding: 0;
+	background-color:#cecece;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+#hinfo
+{
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 30px;
+	border-style: ridge;
+	border-left-width: 150px;
+	border-right-width: 150px;
+	border-color: crimson;
+	
+}
+.policies
+{
+	padding-left: 10px;
+	padding-top: 15px;
+	font-size: 30px;
+	border-style: ridge;
+	border-left-width: 150px;
+	border-right-width: 150px;
+	border-color: aquamarine;
+}
+.paris
+{
+	position: relative;
+	bottom: 50px;
+	font-size: 50px;
+	color: black;
+	font-style: oblique;
+	font-weight:bold;
+	
+}
+ul
+{
+    padding-bottom: 20px;
+    font-size: 20;
+    position: relative;
+    left: 85;
+    top: 10px;
+    padding-right:150px;
+}
+a
+{
+	color: white;
+}
+</style>
+<!DOCTYPE html>
+<div class = "background">
+<!--Paris webpage-->
+<head>   
+	<title>Paris</title>
+ <link rel="icon" href = "http://accenthydroponics.com/images/feature_variant/3/CO2.png">
+  <div class = "popup">
+  <a href="home_page.html"><IMG SRC="earth-spinning-rotating-animation-24.gif" ALT="spinning globe" WIDTH=90>
+   </a>
+   <span class = "popuptext">Home</span>
+   </div>
+    
+    </head>
+<body>
+  <h1 class = "paris">Paris</h1>
+	<h2 class = "population"><b>Population</b>: 12,142,802</h2>
+	<div><h2 id = "emissions"><b> Current CO2 Emissions: </b></h2></div>
+	</div>
+	
+	<div class = "third-background">
+    <h2 class = "policies"><b>Recent CO<sub>2</sub> Policies</b>:<br></h2>
+    <ul>
+      <li>In 2015, Aboitiz power in Batangas partnered with GE's Distributed Power business to builda biomass power plant. Biomass can meet 40% of the Phillipine's energy needs. Read about this eco-friendly power plant <a href="http://www.genewsroom.com/press-releases/ge-launches-first-waste-energy-project-aseagas-philippines-province-batangas-280614" target="_blank">here</a>.
+      <li>Batangas is home to a 160-hectare solar panel farm. The farm supplies power to western Batangas. Read more about the impact of this solar farm <a href="http://technology.inquirer.net/46928/ph-largest-solar-farm-up-in-batangas" target="_blank">here</a>.
+  </ul>
+	</div>
+ 
+  
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script>
+          function Get(yourUrl)
+          {
+	          var Httpreq = new XMLHttpRequest();
+            Httpreq.open('GET',yourUrl, false );
+            Httpreq.send(null);
+            return Httpreq.responseText;
+          }
+           var x = JSON.parse(Get("https://data.cdp.net/resource/iqbu-zjaj.json"));
+           var $output = $('#emissions');
+           for(var i = 0; i < x.length; i++) 
+           {
+              if ((x[i].city_short_name) == 'Paris')
+           {
+    	      $output.append(x[i].total_city_wide_emissions_metric_tonnes_co2e + " metric tonnes");
+            }   
+            }
+</script>
+</body>
+</html>
