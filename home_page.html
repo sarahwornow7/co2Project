@@ -138,13 +138,15 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 li.dropdown {
     display: inline-block;
-    max-height:500px;
+    max-height:300px;
     overflow:scroll; 
 }
 .dropdown-content {
     display: none;
     position: fixed;
     background-color: #f9f9f9;
+    max-height:300px;
+    overflow:scroll;
 }
 .dropdown-content a {
     color: black;
@@ -165,6 +167,8 @@ li.dropdown {
 .dropdown-content a:hover {background-color: #f1f1f1}
 .dropdown:hover .dropdown-content {
     display: block;
+    max-height:300px;
+    overflow:scroll;
 }
 
 .eco
