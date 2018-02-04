@@ -125,7 +125,6 @@ ul {
 }
 li {
     float: left;
-    overflow: auto;
 }
 li a, .dropbtn {
     display: inline-block;
@@ -139,7 +138,8 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 li.dropdown {
     display: inline-block;
-    overflow: auto;
+    max-height:500px;
+    overflow:scroll; 
 }
 .dropdown-content {
     display: none;
@@ -152,6 +152,8 @@ li.dropdown {
     text-decoration: none;
     display: block;
     text-align: left;
+    max-height:500px;
+    overflow:scroll; 
     }
 .dropdown content b {
 	color: black;
