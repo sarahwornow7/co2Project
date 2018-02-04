@@ -215,7 +215,7 @@ div.transbox p {
 }
 .leftside {
 	left: 125px;
-	top: 90px;
+	top: 91px;
 	   }
 
   body{
@@ -234,8 +234,8 @@ div.transbox p {
 
 	<li class="dropdown">
 			
-	<a href="javascript:void(0)" class="dropbtn" id="myDropdown">Locations</a>
-		<div class="dropdown-content">
+	<a href="javascript:void(0)" class="dropbtn">Locations</a>
+		<div class="dropdown-content" id="myDropdown">
 		<input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"></input>
 		<a href= "hong_kong.html">Hong Kong</a>
 		<a href = "buenos_aires.html">Buenos Aires</a>
@@ -246,7 +246,7 @@ div.transbox p {
 		<a href = "vancouver.html">Vancouver</a>
 		<a href = "san_francisco.html">San Francisco</a>
 	</div>
-	<div class="dropdown-content leftside">
+	<div class="dropdown-content leftside" id="myDropdown1">
 		<a href= "seoul.html">Seoul</a>
 		<a href = "rio.html">Rio</a>
 		<a href = "batangas.html">Batangas</a>
@@ -319,11 +319,13 @@ together to make Earth a cleaner place by taking responsibility for our individu
 	    
 <script>
 function filterFunction() {
-    var input, filter, ul, li, a, i;
+    var input, filter, ul, li, a, a1, i;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     div = document.getElementById("myDropdown");
+    div1 = document.getElementById("myDropdown1");
     a = div.getElementsByTagName("a");
+    a1 = div1.getElementsByTagName("a1");
     for (i = 0; i < a.length; i++) {
         if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
             a[i].style.display = "";
@@ -331,6 +333,14 @@ function filterFunction() {
             a[i].style.display = "none";
         }
      }
+   for(i = 0; i < a1.length; i++) {
+	   if (a1[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+		   a1[i].style.display = "";
+	   }
+	   else {
+		   a1[i].style.display = "none";
+	   }
+   }
 }
 	    </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
